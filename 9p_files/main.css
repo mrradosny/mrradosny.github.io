@@ -1044,7 +1044,11 @@ q:before, q:after { content: ""; content: none; }
     left: 24%;
 }
 .pos-oldtown {
-    top: 86%;
+    top: 84%;
+    left: 14%;
+}
+.pos-threetowers {
+    top: 88%;
     left: 16%;
 }
 .pos-oldtown-harbor {
@@ -1179,8 +1183,12 @@ q:before, q:after { content: ""; content: none; }
 	left: 64%
 }
 .pos-braavos {
-	top: 50%;
-	left: 72%
+	top: 51%;
+	left: 76%
+}
+.pos-braavos-harbor {
+	top: 48%;
+	left: 67%
 }
 .pos-andalos {
 	top: 56%;
@@ -1349,6 +1357,7 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-seagard-harbor ~ .unit.pos-seagard-harbor,
 .unit.pos-gulltown-harbor ~ .unit.pos-gulltown-harbor,
 .unit.pos-norvos-harbor ~ .unit.pos-norvos-harbor,
+.unit.pos-braavos-harbor ~ .unit.pos-braavos-harbor,
 .unit.pos-pentos-harbor ~ .unit.pos-pentos-harbor,
 .unit.pos-volantis-harbor ~ .unit.pos-volantis-harbor,
 .unit.pos-bayofrhoyne ~ .unit.pos-bayofrhoyne,
@@ -1455,6 +1464,7 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-seagard-harbor ~ .unit.pos-seagard-harbor ~ .unit.pos-seagard-harbor,
 .unit.pos-gulltown-harbor ~ .unit.pos-gulltown-harbor ~ .unit.pos-gulltown-harbor,
 .unit.pos-norvos-harbor ~ .unit.pos-norvos-harbor ~ .unit.pos-norvos-harbor,
+.unit.pos-braavos-harbor ~ .unit.pos-braavos-harbor ~ .unit.pos-braavos-harbor,
 .unit.pos-pentos-harbor ~ .unit.pos-pentos-harbor ~ .unit.pos-pentos-harbor,
 .unit.pos-volantis-harbor ~ .unit.pos-volantis-harbor ~ .unit.pos-volantis-harbor,
 .unit.pos-bayofrhoyne ~ .unit.pos-bayofrhoyne ~ .unit.pos-bayofrhoyne,
@@ -1561,6 +1571,7 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-seagard-harbor ~ .unit.pos-seagard-harbor ~ .unit.pos-seagard-harbor ~ .unit.pos-seagard-harbor,
 .unit.pos-gulltown-harbor ~ .unit.pos-gulltown-harbor ~ .unit.pos-gulltown-harbor ~ .unit.pos-gulltown-harbor,
 .unit.pos-norvos-harbor ~ .unit.pos-norvos-harbor ~ .unit.pos-norvos-harbor ~ .unit.pos-norvos-harbor,
+.unit.pos-braavos-harbor ~ .unit.pos-braavos-harbor ~ .unit.pos-braavos-harbor~ .unit.pos-braavos-harbor,
 .unit.pos-pentos-harbor ~ .unit.pos-pentos-harbor ~ .unit.pos-pentos-harbor ~ .unit.pos-pentos-harbor,
 .unit.pos-volantis-harbor ~ .unit.pos-volantis-harbor ~ .unit.pos-volantis-harbor ~ .unit.pos-volantis-harbor,
 .unit.pos-bayofrhoyne ~ .unit.pos-bayofrhoyne ~ .unit.pos-bayofrhoyne ~ .unit.pos-bayofrhoyne,
