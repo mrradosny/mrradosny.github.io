@@ -964,7 +964,12 @@ q:before, q:after { content: ""; content: none; }
     left: 25%;
 }
 .pos-dragonstone {
-    top: 61%;
+    top: 62%;
+    left: 56%;
+}
+
+.pos-dragonstone-harbor {
+    top: 63%;
     left: 51%;
 }
 
@@ -977,8 +982,8 @@ q:before, q:after { content: ""; content: none; }
     left: 64%;
 }
 .pos-narrowsea {
-    top: 40%;
-    left: 55%;
+    top: 47%;
+    left: 61%;
 }
 .pos-shipbreakerbay {
     top: 74%;
@@ -1085,8 +1090,8 @@ q:before, q:after { content: ""; content: none; }
 }
 /*****************************************/
 .pos-blackwaterbay {
-    top: 65%;
-    left: 44%;
+    top: 62%;
+    left: 45%;
 }
 .pos-eastsummersea {
     top: 96%;
