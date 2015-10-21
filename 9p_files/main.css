@@ -928,12 +928,12 @@ q:before, q:after { content: ""; content: none; }
     left: 26%;
 }
 .pos-deepwood-harbor {
-    top: 17.5%;
+    top: 17.2%;
     left: 16%;
 }
 .pos-karhold {
-    top: 16%;
-    left: 43%;
+    top: 16.5%;
+    left: 43.5%;
 }
 .pos-stonyshore, .pos-stoneyshore {
     top: 31%;
@@ -944,7 +944,7 @@ q:before, q:after { content: ""; content: none; }
     left: 34%;
 }
 .pos-whiteharbor-harbor {
-    top: 37%;
+    top: 36.5%;
     left: 36%;
 }
 .pos-widowswatch {
@@ -995,8 +995,8 @@ q:before, q:after { content: ""; content: none; }
     left: 3%;
 }
 .pos-goldensound {
-    top: 62%;
-    left: 5%;
+    top: 61.5%;
+    left: 5.5%;
 }
 .pos-lannisport {
     top: 63%;
@@ -1031,12 +1031,12 @@ q:before, q:after { content: ""; content: none; }
     left: 22%;
 }
 .pos-seagard {
-    top: 47%;
+    top: 46.5%;
     left: 21%;
 }
 .pos-ironmansbay {
-    top: 55%;
-    left: 4%;
+    top: 54%;
+    left: 4.5%;
 }
 /*****************************************/
 .pos-pyke {
@@ -1065,8 +1065,8 @@ q:before, q:after { content: ""; content: none; }
     left: 16%;
 }
 .pos-oldtown-harbor {
-    top: 82%;
-    left: 7%;
+    top: 81.8%;
+    left: 7.2%;
 }
 .pos-redwynestraights {
     top: 90%;
@@ -1165,7 +1165,7 @@ q:before, q:after { content: ""; content: none; }
 }
 .pos-gulltown {
 	top: 55%;
-	left: 43%;
+	left: 43.2%;
 }
 .pos-whisperingwood {
 	top: 52.5%;
@@ -1237,7 +1237,7 @@ q:before, q:after { content: ""; content: none; }
 }
 .pos-gulltown-harbor {
 	top: 53.5%;
-	left: 46.5%
+	left: 46.7%
 }
 .pos-norvos-harbor {
 	top: 53%;
@@ -1268,7 +1268,7 @@ q:before, q:after { content: ""; content: none; }
 	left: 53%
 }
 .pos-byte, .pos-thebyte {
-	top: 38%;
+	top: 37%;
 	left: 44%
 }
 .pos-bayofnorvos {
