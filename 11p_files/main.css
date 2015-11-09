@@ -28,9 +28,9 @@ q:before, q:after { content: ""; content: none; }
 
 .board {
     position: relative;
-    height: 2585px;
-    width: 2264px;
-    background: url(images/Map2.jpg);
+    height: 2876px;
+    width: 2520px;
+    background: url(images/Map.jpg);
 	background-size: cover;
 }
 
@@ -60,6 +60,8 @@ q:before, q:after { content: ""; content: none; }
 .token-arryn,
 .token-tully,
 .token-targaryen,
+.token-bolton,
+.token-viserys,
 
 .powertoken-lannister,
 .powertoken-stark,
@@ -70,6 +72,8 @@ q:before, q:after { content: ""; content: none; }
 .powertoken-arryn,
 .powertoken-tully,
 .powertoken-targaryen,
+.powertoken-bolton,
+.powertoken-viserys,
 
 .supply-lannister,
 .supply-stark,
@@ -80,6 +84,8 @@ q:before, q:after { content: ""; content: none; }
 .supply-arryn,
 .supply-tully,
 .supply-targaryen,
+.supply-bolton,
+.supply-viserys,
 
 .victory-lannister,
 .victory-stark,
@@ -90,6 +96,8 @@ q:before, q:after { content: ""; content: none; }
 .victory-arryn,
 .victory-tully,
 .victory-targaryen,
+.victory-bolton,
+.victory-viserys,
 
 .routed-footman-lannister,
 .routed-footman-stark,
@@ -100,6 +108,8 @@ q:before, q:after { content: ""; content: none; }
 .routed-footman-arryn,
 .routed-footman-tully,
 .routed-footman-targaryen,
+.routed-footman-bolton,
+.routed-footman-viserys,
 .footman-lannister,
 .footman-stark,
 .footman-baratheon,
@@ -109,6 +119,8 @@ q:before, q:after { content: ""; content: none; }
 .footman-arryn,
 .footman-tully,
 .footman-targaryen,
+.footman-bolton,
+.footman-viserys,
 
 .routed-knight-lannister,
 .routed-knight-stark,
@@ -119,6 +131,8 @@ q:before, q:after { content: ""; content: none; }
 .routed-knight-arryn,
 .routed-knight-tully,
 .routed-knight-targaryen,
+.routed-knight-bolton,
+.routed-knight-viserys,
 .knight-lannister,
 .knight-stark,
 .knight-baratheon,
@@ -128,6 +142,8 @@ q:before, q:after { content: ""; content: none; }
 .knight-arryn,
 .knight-tully,
 .knight-targaryen,
+.knight-bolton,
+.knight-viserys,
 
 .routed-ship-lannister,
 .routed-ship-stark,
@@ -138,6 +154,8 @@ q:before, q:after { content: ""; content: none; }
 .routed-ship-arryn,
 .routed-ship-tully,
 .routed-ship-targaryen,
+.routed-ship-bolton,
+.routed-ship-viserys,
 .ship-lannister,
 .ship-stark,
 .ship-baratheon,
@@ -147,6 +165,8 @@ q:before, q:after { content: ""; content: none; }
 .ship-arryn,
 .ship-tully,
 .ship-targaryen,
+.ship-bolton,
+.ship-viserys,
 
 .routed-siege-lannister,
 .routed-siege-stark,
@@ -157,6 +177,8 @@ q:before, q:after { content: ""; content: none; }
 .routed-siege-arryn,
 .routed-siege-tully,
 .routed-siege-targaryen,
+.routed-siege-bolton,
+.routed-siege-viserys,
 .siege-lannister,
 .siege-stark,
 .siege-baratheon,
@@ -165,7 +187,9 @@ q:before, q:after { content: ""; content: none; }
 .siege-martell,
 .siege-arryn,
 .siege-tully,
-.siege-targaryen {
+.siege-targaryen,
+.siege-bolton,
+.siege-viserys {
     background: url(images/tokens.png) no-repeat;
     width: 62px;
     height: 62px;
@@ -184,6 +208,8 @@ q:before, q:after { content: ""; content: none; }
 .routed-footman-arryn,
 .routed-footman-tully,
 .routed-footman-targaryen,
+.routed-footman-bolton,
+.routed-footman-viserys,
 
 .routed-knight-lannister,
 .routed-knight-stark,
@@ -194,6 +220,8 @@ q:before, q:after { content: ""; content: none; }
 .routed-knight-arryn,
 .routed-knight-tully,
 .routed-knight-targaryen,
+.routed-knight-bolton,
+.routed-knight-viserys,
 
 .routed-ship-lannister,
 .routed-ship-stark,
@@ -204,6 +232,8 @@ q:before, q:after { content: ""; content: none; }
 .routed-ship-arryn,
 .routed-ship-tully,
 .routed-ship-targaryen,
+.routed-ship-bolton,
+.routed-ship-viserys,
 
 .routed-siege-lannister,
 .routed-siege-stark,
@@ -213,7 +243,9 @@ q:before, q:after { content: ""; content: none; }
 .routed-siege-martell,
 .routed-siege-arryn,
 .routed-siege-tully,
-.routed-siege-targaryen {
+.routed-siege-targaryen,
+.routed-siege-bolton,
+.routed-siege-viserys {
     background-color: rgba(0, 0, 0, .7);
     box-shadow: 0 0 10px rgba(0, 0, 0, .7);
     border-radius: 50%;
@@ -311,6 +343,12 @@ q:before, q:after { content: ""; content: none; }
 .token-targaryen {
     background-position: -436px -62px;
 }
+.token-bolton {
+    background-position: -1121px -62px;
+}
+.token-viserys {
+    background-position: -1188px -62px;
+}
 
 .powertoken-lannister {
     background-position: 0 -125px;
@@ -338,6 +376,12 @@ q:before, q:after { content: ""; content: none; }
 }
 .powertoken-tully {
     background-position: -364px -125px;
+}
+.powertoken-bolton {
+    background-position: -1127px -125px;
+}
+.powertoken-viserys {
+    background-position: -1183px -126px;
 }
 
 .supply-lannister {
@@ -367,6 +411,12 @@ q:before, q:after { content: ""; content: none; }
 .supply-tully {
     background-position: -372px -186px;
 }
+.supply-bolton{
+    background-position: -1127px -186px;
+}
+.supply-viserys {
+    background-position: -1183px -186px;
+}
 
 .victory-lannister {
     background-position: 0 -248px;
@@ -394,6 +444,12 @@ q:before, q:after { content: ""; content: none; }
 }
 .victory-tully {
     background-position: -492px -248px;
+}
+.victory-bolton {
+    background-position: -1127px -248px;
+}
+.victory-viserys {
+    background-position: -1183px -247px;
 }
 
 .routed-footman-lannister,
@@ -432,6 +488,14 @@ q:before, q:after { content: ""; content: none; }
 .footman-tully {
     background-position: -936px -62px;
 }
+.routed-footman-bolton,
+.footman-bolton {
+    background-position: -1325px -62px;
+}
+.routed-footman-viserys,
+.footman-viserys {
+    background-position: -1255px -62px;
+}
 
 .routed-knight-lannister,
 .knight-lannister {
@@ -468,6 +532,14 @@ q:before, q:after { content: ""; content: none; }
 .routed-knight-tully,
 .knight-tully {
     background-position: -936px -124px;
+}
+.routed-knight-bolton,
+.knight-bolton {
+    background-position: -1325px -124px;
+}
+.routed-knight-viserys,
+.knight-viserys {
+    background-position: -1255px -124px;
 }
 
 .routed-ship-lannister,
@@ -506,6 +578,14 @@ q:before, q:after { content: ""; content: none; }
 .ship-tully {
     background-position: -936px -186px;
 }
+.routed-ship-bolton,
+.ship-bolton {
+    background-position: -1325px -186px;
+}
+.routed-ship-viserys,
+.ship-viserys {
+    background-position: -1255px -186px;
+}
 
 .siege-lannister {
     background-position: -748px -62px;
@@ -531,250 +611,292 @@ q:before, q:after { content: ""; content: none; }
 .siege-targaryen {
     background-position: -994px -248px;
 }
-.siege-tully {
-    background-position: -936px -248px;
+.siege-bolton {
+    background-position: -1325px -248px;
+}
+.siege-viserys {
+    background-position: -1255px -248px;
 }
 
 .pos-throne-1 {
-	left: 85.65%;
-	top: 56.45%;
+	left: 87.25%;
+	top: 61.59%;
 }
 .pos-throne-2 {
-    left: 85.65%;
-    top: 51.4%;
+    left: 87.25%;
+    top: 57.05%;
 }
 .pos-throne-3 {
-    left: 85.65%;
-    top: 46.4%;
+    left: 87.25%;
+    top: 52.51%;
 }
 .pos-throne-4 {
-    left: 85.65%;
-    top: 41.35%;
+    left: 87.25%;
+    top: 47.97%;
 }
 .pos-throne-5 {
-    left: 85.65%;
-    top: 36.3%;
+    left: 87.25%;
+    top: 43.43%;
 }
 .pos-throne-6 {
-    left: 85.65%;
-    top: 30.9%;
+    left: 87.25%;
+    top: 38.68%;
 }
 .pos-throne-7 {
-    left: 85.65%;
-    top: 25.9%;
+    left: 87.25%;
+    top: 34.15%;
 }
 .pos-throne-8 {
-    left: 85.65%;
-    top: 20.8%;
+    left: 87.25%;
+    top: 29.60%;
 }
 .pos-throne-9 {
-    left: 85.65%;
-    top: 15.85%;
+    left: 87.25%;
+    top: 25.12%;
 }
+.pos-throne-10 {
+    left: 87.25%;
+    top: 20.61%;
+}
+.pos-throne-11 {
+    left: 87.25%;
+    top: 16.08%;
+}
+
 .pos-fiefdom-1 {
-    left: 91.3%;
-    top: 56.4%;
+    left: 92.32%;
+    top: 61.59%;
 }
 .pos-fiefdom-2 {
-    left: 91.3%;
-    top: 51.35%;
+    left: 92.32%;
+    top: 57.05%;
 }
 .pos-fiefdom-3 {
-    left: 91.3%;
-    top: 46.35%;
+    left: 92.32%;
+    top: 52.51%;;
 }
 .pos-fiefdom-4 {
-    left: 91.3%;
-    top: 41.27%;
+    left: 92.32%;
+    top: 47.97%;
 }
 .pos-fiefdom-5 {
-    left: 91.3%;
-    top: 36.23%;
+    left: 92.32%;
+    top: 43.43%;
 }
 .pos-fiefdom-6 {
-    left: 91.3%;
-    top: 30.9%;
+    left: 92.32%;
+    top: 38.68%;
 }
 .pos-fiefdom-7 {
-    left: 91.3%;
-    top: 25.87%;
+    left: 92.32%;
+    top: 34.15%;
 }
 .pos-fiefdom-8 {
-    left: 91.3%;
-    top: 20.8%;
+    left: 92.32%;
+    top: 29.60%;
 }
 .pos-fiefdom-9 {
-    left: 91.3%;
-    top: 15.8%;
+    left: 92.32%;
+    top: 25.12%;
 }
+.pos-fiefdom-10 {
+    left: 92.32%;
+    top: 20.61%;
+}
+.pos-fiefdom-11 {
+    left: 92.32%;
+    top: 16.08%;
+}
+
 .pos-court-1 {
-    left: 96.8%;
-    top: 56.4%;
+    left: 97.28%;
+    top: 61.59%;
 }
 .pos-court-2 {
-    left: 96.8%;
-    top: 51.35%;
+    left: 97.28%;
+    top: 57.03%;
 }
 .pos-court-3 {
-    left: 96.8%;
-    top: 46.35%;
+    left: 97.28%;
+    top: 52.50%;
 }
 .pos-court-4 {
-    left: 96.8%;
-    top: 41.27%;
+    left: 97.30%;
+    top: 47.92%;
 }
 .pos-court-5 {
-    left: 96.95%;
-    top: 36.23%;
+    left: 97.36%;
+    top: 43.40%;
 }
 .pos-court-6 {
-    left: 96.8%;
-    top: 30.65%;
+    left: 97.28%;
+    top: 38.42%;
 }
 .pos-court-7 {
-    left: 96.8%;
-    top: 25.87%;
+    left: 97.28%;
+    top: 33.9%;
 }
 .pos-court-8 {
-    left: 96.8%;
-    top: 20.8%;
+    left: 97.28%;
+    top: 29.35%;
 }
 .pos-court-9 {
-    left: 96.8%;
-    top: 15.8%;
+    left: 97.33%;
+    top: 25.13%;
 }
+.pos-court-10 {
+    left: 97.3%;
+    top: 20.58%;
+}
+.pos-court-11 {
+    left: 97.3%;
+    top: 16.08%;
+}
+
 .pos-supply-0 {
-    left: 71.4%;
-    top: 23.2%;
+    left: 70.5%;
+    top: 3.5%;
 }
 .pos-supply-1 {
-    left: 71.4%;
-    top: 20%;
+    left: 73.5%;
+    top: 3.5%;
 }
 .pos-supply-2 {
-    left: 71.4%;
-    top: 16.6%;
+    left: 77%;
+    top: 3.5%;
 }
 .pos-supply-3 {
-    left: 71.4%;
-    top: 13.4%;
+    left: 80.2%;
+    top: 3.5%;
 }
 .pos-supply-4 {
-    left: 71.4%;
-    top: 10.3%;
+    left: 83.5%;
+    top: 3.5%;
 }
 .pos-supply-5 {
-    left: 71.4%;
-    top: 7%;
+    left: 86.7%;
+    top: 3.5%;
 }
 .pos-supply-6 {
-    left: 71.4%;
-    top: 3.8%;
+    left: 89.7%;
+    top: 3.5%;
 }
+.pos-supply-7 {
+    left: 93.2%;
+    top: 3.5%;
+}
+.pos-supply-8 {
+    left: 96.5%;
+    top: 3.5%;
+}
+
 .pos-victory-1 {
     left: 95.6%;
-    top: 95.9%;
+    top: 97.5%;
 }
 .pos-victory-2 {
     left: 95.6%;
-    top: 92%;
+    top: 93.5%;
 }
 .pos-victory-3 {
     left: 95.6%;
-    top: 87.5%;
+    top: 89.5%;
 }
 .pos-victory-4 {
-    left: 95.8%;
-    top: 83%;
+    left: 95.6%;
+    top: 85.5%;
 }
 .pos-victory-5 {
     left: 95.6%;
-    top: 78.5%;
+    top: 81.2%;
 }
 .pos-victory-6 {
     left: 95.6%;
-    top: 74%;
+    top: 77%;
 }
 .pos-victory-7 {
     left: 95.6%;
-    top: 69.5%;
+    top: 73%;
 }
+
 .pos-wilding-0 {
     left: 17%;
-    top: 3.95%;
+    top: 4.5%;
 }
 .pos-wilding-3 {
     left: 21%;
-    top: 3.95%;
+    top: 4.5%;
 }
 .pos-wilding-6 {
     left: 25%;
-    top: 3.95%;
+    top: 4.5%;
 }
 .pos-wilding-9 {
     left: 28.5%;
-    top: 3.95%;
+    top: 4.5%;
 }
 .pos-wilding-12 {
     left: 32.5%;
-    top: 3.95%;
+    top: 4.5%;
 }
 .pos-wilding-15 {
     left: 36.5%;
-    top: 3.95%;
+    top: 4.5%;
 }
 .pos-wilding-18 {
     left: 40.5%;
-    top: 3.95%;
+    top: 4.5%;
 }
+
 .pos-round-1 {
-    left: 88%;
-    top: 97.3%;
+    left: 89.5%;
+    top: 98.3%;
 }
 .pos-round-2 {
-    left: 88%;
-    top: 94.7%;
+    left: 89.5%;
+    top: 96%;
 }
 .pos-round-3 {
-    left: 88%;
-    top: 92.1%;
+    left: 89.5%;
+    top: 93.7%;
 }
 .pos-round-4 {
-    left: 88%;
-    top: 89.5%;
+    left: 89.5%;
+    top: 91.3%;
 }
 .pos-round-5 {
-    left: 88%;
-    top: 86.9%;
+    left: 89.5%;
+    top: 88.9%;
 }
 .pos-round-6 {
-    left: 88%;
-    top: 84.3%;
+    left: 89.5%;
+    top: 86.6%;
 }
 .pos-round-7 {
-    left: 88%;
-    top: 81.7%;
+    left: 89.5%;
+    top: 84.3%;
 }
 .pos-round-8 {
-    left: 88%;
-    top: 79.1%;
+    left: 89.5%;
+    top: 82%;
 }
 .pos-round-9 {
-    left: 88%;
-    top: 76.5%;
+    left: 89.5%;
+    top: 79.7%;
 }
 .pos-round-10 {
-    left: 88%;
-    top: 73.9%;
+    left: 89.5%;
+    top: 77.2%;
 } 
 .pos-round-11 {
-    left: 88%;
-    top: 71.3%;
+    left: 89.5%;
+    top: 75%;
 }
 .pos-round-12 {
-    left: 88%;
-    top: 68.7%;
+    left: 89.5%;
+    top: 72.5%;
 }
+
 .pos-victory-1 ~ .pos-victory-1,
 .pos-victory-2 ~ .pos-victory-2,
 .pos-victory-3 ~ .pos-victory-3,
@@ -868,7 +990,11 @@ q:before, q:after { content: ""; content: none; }
 .pos-victory-4 ~ .pos-victory-4 ~ .pos-victory-4 ~ .pos-victory-4 ~ .pos-victory-4 ~ .pos-victory-4 ~ .pos-victory-4,
 .pos-victory-5 ~ .pos-victory-5 ~ .pos-victory-5 ~ .pos-victory-5 ~ .pos-victory-5 ~ .pos-victory-5 ~ .pos-victory-5,
 .pos-victory-6 ~ .pos-victory-6 ~ .pos-victory-6 ~ .pos-victory-6 ~ .pos-victory-6 ~ .pos-victory-6 ~ .pos-victory-6,
-.pos-victory-7 ~ .pos-victory-7 ~ .pos-victory-7 ~ .pos-victory-7 ~ .pos-victory-7 ~ .pos-victory-7 ~ .pos-victory-7,
+.pos-victory-7 ~ .pos-victory-7 ~ .pos-victory-7 ~ .pos-victory-7 ~ .pos-victory-7 ~ .pos-victory-7 ~ .pos-victory-7 {
+    margin-left: 10px;
+    margin-top: 15px;
+    z-index: 25;
+}
 .pos-supply-0 ~ .pos-supply-0 ~ .pos-supply-0 ~ .pos-supply-0 ~ .pos-supply-0 ~ .pos-supply-0 ~ .pos-supply-0,
 .pos-supply-1 ~ .pos-supply-1 ~ .pos-supply-1 ~ .pos-supply-1 ~ .pos-supply-1 ~ .pos-supply-1 ~ .pos-supply-1,
 .pos-supply-2 ~ .pos-supply-2 ~ .pos-supply-2 ~ .pos-supply-2 ~ .pos-supply-2 ~ .pos-supply-2 ~ .pos-supply-2,
@@ -876,17 +1002,22 @@ q:before, q:after { content: ""; content: none; }
 .pos-supply-4 ~ .pos-supply-4 ~ .pos-supply-4 ~ .pos-supply-4 ~ .pos-supply-4 ~ .pos-supply-4 ~ .pos-supply-4,
 .pos-supply-5 ~ .pos-supply-5 ~ .pos-supply-5 ~ .pos-supply-5 ~ .pos-supply-5 ~ .pos-supply-5 ~ .pos-supply-5,
 .pos-supply-6 ~ .pos-supply-6 ~ .pos-supply-6 ~ .pos-supply-6 ~ .pos-supply-6 ~ .pos-supply-6  ~ .pos-supply-6 {
-    margin-left: 10px;
+    margin-left: 0px;
     margin-top: 15px;
     z-index: 25;
 }
+
 .pos-victory-1 ~ .pos-victory-1 ~ .pos-victory-1 ~ .pos-victory-1 ~ .pos-victory-1 ~ .pos-victory-1 ~ .pos-victory-1 ~ .pos-victory-1,
 .pos-victory-2 ~ .pos-victory-2 ~ .pos-victory-2 ~ .pos-victory-2 ~ .pos-victory-2 ~ .pos-victory-2 ~ .pos-victory-2 ~ .pos-victory-2,
 .pos-victory-3 ~ .pos-victory-3 ~ .pos-victory-3 ~ .pos-victory-3 ~ .pos-victory-3 ~ .pos-victory-3 ~ .pos-victory-3 ~ .pos-victory-3,
 .pos-victory-4 ~ .pos-victory-4 ~ .pos-victory-4 ~ .pos-victory-4 ~ .pos-victory-4 ~ .pos-victory-4 ~ .pos-victory-4 ~ .pos-victory-4,
 .pos-victory-5 ~ .pos-victory-5 ~ .pos-victory-5 ~ .pos-victory-5 ~ .pos-victory-5 ~ .pos-victory-5 ~ .pos-victory-5 ~ .pos-victory-5,
 .pos-victory-6 ~ .pos-victory-6 ~ .pos-victory-6 ~ .pos-victory-6 ~ .pos-victory-6 ~ .pos-victory-6 ~ .pos-victory-6 ~ .pos-victory-6,
-.pos-victory-7 ~ .pos-victory-7 ~ .pos-victory-7 ~ .pos-victory-7 ~ .pos-victory-7 ~ .pos-victory-7 ~ .pos-victory-7 ~ .pos-victory-7,
+.pos-victory-7 ~ .pos-victory-7 ~ .pos-victory-7 ~ .pos-victory-7 ~ .pos-victory-7 ~ .pos-victory-7 ~ .pos-victory-7 ~ .pos-victory-7 {
+    margin-left: 10px;
+    margin-top: -75px;
+    z-index: 25;
+}
 .pos-supply-0 ~ .pos-supply-0 ~ .pos-supply-0 ~ .pos-supply-0 ~ .pos-supply-0 ~ .pos-supply-0 ~ .pos-supply-0 ~ .pos-supply-0,
 .pos-supply-1 ~ .pos-supply-1 ~ .pos-supply-1 ~ .pos-supply-1 ~ .pos-supply-1 ~ .pos-supply-1 ~ .pos-supply-1 ~ .pos-supply-1,
 .pos-supply-2 ~ .pos-supply-2 ~ .pos-supply-2 ~ .pos-supply-2 ~ .pos-supply-2 ~ .pos-supply-2 ~ .pos-supply-2 ~ .pos-supply-2,
@@ -894,8 +1025,19 @@ q:before, q:after { content: ""; content: none; }
 .pos-supply-4 ~ .pos-supply-4 ~ .pos-supply-4 ~ .pos-supply-4 ~ .pos-supply-4 ~ .pos-supply-4 ~ .pos-supply-4 ~ .pos-supply-4,
 .pos-supply-5 ~ .pos-supply-5 ~ .pos-supply-5 ~ .pos-supply-5 ~ .pos-supply-5 ~ .pos-supply-5 ~ .pos-supply-5 ~ .pos-supply-5,
 .pos-supply-6 ~ .pos-supply-6 ~ .pos-supply-6 ~ .pos-supply-6 ~ .pos-supply-6 ~ .pos-supply-6  ~ .pos-supply-6  ~ .pos-supply-6 {
-    margin-left: 10px;
+    margin-left: 0px;
     margin-top: -75px;
+    z-index: 25;
+}
+.pos-supply-0 ~ .pos-supply-0 ~ .pos-supply-0 ~ .pos-supply-0 ~ .pos-supply-0 ~ .pos-supply-0 ~ .pos-supply-0 ~ .pos-supply-0 ~ .pos-supply-0,
+.pos-supply-1 ~ .pos-supply-1 ~ .pos-supply-1 ~ .pos-supply-1 ~ .pos-supply-1 ~ .pos-supply-1 ~ .pos-supply-1 ~ .pos-supply-1 ~ .pos-supply-1,
+.pos-supply-2 ~ .pos-supply-2 ~ .pos-supply-2 ~ .pos-supply-2 ~ .pos-supply-2 ~ .pos-supply-2 ~ .pos-supply-2 ~ .pos-supply-2 ~ .pos-supply-2,
+.pos-supply-3 ~ .pos-supply-3 ~ .pos-supply-3 ~ .pos-supply-3 ~ .pos-supply-3 ~ .pos-supply-3 ~ .pos-supply-3 ~ .pos-supply-3 ~ .pos-supply-3,
+.pos-supply-4 ~ .pos-supply-4 ~ .pos-supply-4 ~ .pos-supply-4 ~ .pos-supply-4 ~ .pos-supply-4 ~ .pos-supply-4 ~ .pos-supply-4 ~ .pos-supply-4,
+.pos-supply-5 ~ .pos-supply-5 ~ .pos-supply-5 ~ .pos-supply-5 ~ .pos-supply-5 ~ .pos-supply-5 ~ .pos-supply-5 ~ .pos-supply-5 ~ .pos-supply-5,
+.pos-supply-6 ~ .pos-supply-6 ~ .pos-supply-6 ~ .pos-supply-6 ~ .pos-supply-6 ~ .pos-supply-6  ~ .pos-supply-6  ~ .pos-supply-6  ~ .pos-supply-6{
+    margin-left: -60px;
+    margin-top: 15px;
     z-index: 25;
 }
 
@@ -907,371 +1049,427 @@ q:before, q:after { content: ""; content: none; }
     -o-transition: opacity .5s ease;
     transition: opacity .5s ease;
 }
+
 .pos-castleblack {
-    top: 11%;
-    left: 36%;
+    top: 12.5%;
+    left: 39.5%;
+}
+.pos-queenscrown {
+    top: 11.9%;
+    left: 31.5%;
+}
+.pos-skagos {
+    top: 8%;
+    left: 50%;
+}
+.pos-skagos-harbor {
+    top: 11.3%;
+    left: 53.8%;
 }
 .pos-bearisland {
-	top: 11.5%;
-	left: 16.5%;
+	top: 11.9%;
+	left: 17.5%;
 }
 .pos-deepwood {
-	top: 19.5%;
-	left: 21.5%;
+	top: 21.5%;
+	left: 22%;
+}
+.pos-deepwood-harbor {
+	top: 18.3%;
+	left: 17.7%;
 }
 .pos-dreadfort {
 	top: 22%;
-	left: 37%;
+	left: 40.5%;
+}
+.pos-dreadfort-harbor {
+	top: 23.8%;
+	left: 46.5%;
+}
+.pos-longlake {
+	top: 19%;
+	left: 32.5%;
+}
+.pos-hornwood {
+	top: 26%;
+	left: 36%;
 }
 .pos-winterfell {
-    top: 32%;
+    top: 27%;
     left: 26%;
 }
-.pos-deepwood-harbor {
-    top: 18%;
-    left: 16%;
-}
 .pos-karhold {
-    top: 16%;
-    left: 42%;
+    top: 17.5%;
+    left: 46%;
 }
-.pos-stonyshore, .pos-stoneyshore {
-    top: 31%;
+.pos-rills {
+    top: 32.5%;
     left: 17%;
 }
+.pos-torrhenssquare {
+    top: 26%;
+    left: 18%;
+}
+.pos-barrowlands {
+    top: 33%;
+    left: 25%;
+}
 .pos-whiteharbor {
-    top: 29%;
-    left: 34%;
+    top: 32%;
+    left: 33%;
 }
 .pos-whiteharbor-harbor {
-    top: 37%;
-    left: 35%;
+    top: 37.7%;
+    left: 35.5%;
 }
 .pos-widowswatch {
-    top: 29%;
-    left: 41%;
+    top: 29.5%;
+    left: 42%;
 }
 .pos-flintsfinger {
     top: 40%;
     left: 13%;
 }
 .pos-greywaterwatch {
-    top: 39%;
-    left: 20%;
+    top: 38.8%;
+    left: 21.8%;
 }
 .pos-moatcailin {
-    top: 42%;
-    left: 25%;
+    top: 39%;
+    left: 28%;
 }
 .pos-dragonstone {
-    top: 61%;
-    left: 51%;
+    top: 59.1%;
+    left: 54.3%;
 }
-
+.pos-dragonstone-harbor {
+    top: 62.6%;
+    left: 51.5%;
+}
+.pos-tarth {
+    top: 71.5%;
+    left: 55%;
+}
 .pos-bayofice {
-    top: 23%;
-    left: 3%;
+    top: 22%;
+    left: 6%;
 }
 .pos-shiveringsea {
-    top: 33%;
-    left: 64%;
+    top: 28%;
+    left: 63%;
+}
+.pos-blazewaterbay {
+    top: 37%;
+    left: 5.5%;
 }
 .pos-narrowsea {
     top: 40%;
-    left: 55%;
+    left: 60%;
 }
 .pos-shipbreakerbay {
-    top: 74%;
+    top: 67.5%;
     left: 53%;
 }
-/*****************************************/
 .pos-sunsetsea {
-    top: 39%;
-    left: 3%;
+    top: 68%;
+    left: 4.5%;
 }
 .pos-goldensound {
-    top: 64%;
-    left: 4%;
+    top: 57%;
+    left: 10%;
 }
 .pos-lannisport {
-    top: 64%;
-    left: 14%;
+    top: 62.5%;
+    left: 15.5%;
 }
 .pos-lannisport-harbor {
-    top: 60%;
-    left: 11%;
+    top: 63.8%;
+    left: 10.3%;
 }
 .pos-stoneysept {
-    top: 63%;
-    left: 27%;
+    top: 61%;
+    left: 27.2%;
 }
 .pos-harrenhal {
-    top: 59%;
-    left: 31%;
+    top: 59.7%;
+    left: 32.5%;
 }
 .pos-riverrun {
-    top: 57%;
-    left: 24%;
+    top: 54%;
+    left: 30%;
 }
 .pos-searoadmarches {
-    top: 69%;
-    left: 12%;
+    top: 70.5%;
+    left: 15.5%;
 }
 .pos-blackwater {
     top: 67%;
-    left: 30%;
+    left: 29.5%;
 }
-.pos-reach {
-    top: 74%;
-    left: 22%;
+.pos-ciderhall {
+    top: 73%;
+    left: 26%;
 }
 .pos-seagard {
-    top: 48%;
-    left: 22%;
+    top: 43%;
+    left: 23.3%;
 }
 .pos-ironmansbay {
     top: 55%;
     left: 4%;
 }
-/*****************************************/
 .pos-pyke {
-    top: 49%;
+    top: 48%;
     left: 10%;
 }
 .pos-pyke-harbor {
-    top: 47%;
-    left: 13%;
+    top: 45.7%;
+    left: 16.2%;
 }
-/*****************************************/
 .pos-highgarden {
-    top: 78%;
-    left: 17%;
+    top: 77.5%;
+    left: 17.5%;
 }
 .pos-dornishmarches {
-    top: 79%;
-    left: 24%;
+    top: 77.5%;
+    left: 25%;
 }
 .pos-oldtown {
-    top: 84%;
+    top: 83%;
     left: 14%;
 }
 .pos-threetowers {
-    top: 88%;
-    left: 16%;
+    top: 87.4%;
+    left: 17%;
 }
 .pos-oldtown-harbor {
-    top: 82%;
-    left: 7%;
+    top: 80.9%;
+    left: 9.4%;
 }
-.pos-redwynestraights {
-    top: 90%;
-    left: 6%;
+.pos-redwynestraits {
+    top: 87.3%;
+    left: 9.5%;
 }
 .pos-sunspear {
-    top: 89%;
-	left: 45%;
+    top: 87%;
+	left: 46%;
 }
 .pos-sunspear-harbor {
-    top: 90%;
-    left: 52%;
+    top: 88.6%;
+    left: 51.5%;
 }
 .pos-saltshore {
-    top: 92%;
-    left: 38%;
+    top: 89.2%;
+    left: 37.5%;
 }
 .pos-seaofdorne {
-    top: 85%;
-    left: 45%;
+    top: 83.5%;
+    left: 42.5%;
 }
-/*****************************************/
 .pos-blackwaterbay {
-    top: 65%;
-    left: 44%;
+    top: 61.5%;
+    left: 46.3%;
 }
 .pos-eastsummersea {
-    top: 96%;
-    left: 45%;
+    top: 92%;
+    left: 55%;
 }
 .pos-westsummersea {
-    top: 74%;
+    top: 95%;
     left: 4%;
 }
 .pos-arbor {
-    top: 94%;
-    left: 6%;
+    top: 92.4%;
+    left: 8%;
 }
 .pos-boneway {
-    top: 81%;
-    left: 32%;
+    top: 79.5%;
+    left: 33%;
 }
 .pos-princespass {
-    top: 84%;
-    left: 23%;
+    top: 83%;
+    left: 25.5%;
 }
 .pos-yronwood {
-    top: 89%;
-    left: 29%;
+    top: 86%;
+    left: 32.5%;
 }
 .pos-stormsend {
-    top: 75%;
-    left: 40%;
+    top: 71%;
+    left: 41.5%;
 }
 .pos-stormsend-harbor {
-    top: 77%;
-    left: 46%;
+    top: 73%;
+    left: 47.2%;
 }
 .pos-starfall {
-    top: 92%;
+    top: 90%;
     left: 25%;
 }
-/*****************************************/
 .pos-twins {
-    top: 47%;
-    left: 28%;
+    top: 45%;
+    left: 28.5%;
 }
 .pos-fingers {
-    top: 43%;
-    left: 40%;
+    top: 42.2%;
+    left: 42%;
 }
 .pos-eyrie {
-    top: 50%;
-    left: 36%;
+    top: 47%;
+    left: 37%;
 }
 .pos-crackclawpoint {
-    top: 60%;
-    left: 39%;
+    top: 59.5%;
+    left: 39.5%;
 }
 .pos-kingslanding {
-    top: 67%;
+    top: 66%;
     left: 36%;
 }
-/*****************************************/
 .pos-vale {
-	top: 49%;
-	left: 44%;
+	top: 47.2%;
+	left: 46%;
 }
 .pos-bloodygate {
-	top: 52%;
-	left: 40%;
+	top: 50.3%;
+	left: 40.7%;
 }
 .pos-kingsroad {
-	top: 55%;
-	left: 36%;
+	top: 52.4%;
+	left: 35.7%;
 }
 .pos-gulltown {
-	top: 55%;
-	left: 43%;
+	top: 53.7%;
+	left: 44%;
 }
-.pos-whisperingwood {
-	top: 52.5%;
-	left: 24.5%;
+.pos-fairmarket {
+	top: 53.5%;
+	left: 24%;
 }
 .pos-banefort {
-	top: 56%;
-	left: 17%;
+	top: 55.5%;
+	left: 18.2%;
 }
 .pos-goldentooth {
-	top: 61%;
-	left: 20%;
+	top: 59.5%;
+	left: 22%;
 }
 .pos-casterlyrock {
-	top: 68%;
-	left: 20%;
+	top: 66%;
+	left: 22%;
 }
 .pos-bitterbridge {
-	top: 76%;
-	left: 30%;
+	top: 73%;
+	left: 33%;
 }
 .pos-rainwood {
-	top: 80%;
-	left: 43%;
+	top: 77.5%;
+	left: 44.5%;
 }
 .pos-lys {
-	top: 92%;
-	left: 64%
+	top: 91.5%;
+	left: 67%
+}
+.pos-tyrosh {
+	top: 80.5%;
+	left: 60.5%
 }
 .pos-braavos {
-	top: 50%;
-	left: 74%
-}
-.pos-braavos-harbor {
-	top: 48%;
-	left: 67%
-}
-.pos-andalos {
-	top: 56%;
-	left: 67%
-}
-.pos-norvos {
-	top: 58%;
-	left: 74%
-}
-.pos-pentos {
-	top: 67%;
-	left: 69%
-}
-.pos-goldenfields {
-	top: 65%;
-	left: 77%
-}
-.pos-myr {
-	top: 71%;
-	left: 68%
-}
-.pos-disputedlands {
-	top: 76%;
+	top: 47.5%;
 	left: 70%
 }
-.pos-volantis {
-	top: 81%;
-	left: 79%
+.pos-braavos-harbor {
+	top: 43%;
+	left: 65.1%
 }
-.pos-seagard-harbor {
-	top: 52%;
-	left: 19%
+.pos-andalos {
+	top: 56.3%;
+	left: 68.5%
 }
-.pos-gulltown-harbor {
+.pos-norvos {
 	top: 54%;
-	left: 46%
+	left: 80%
 }
 .pos-norvos-harbor {
-	top: 53%;
-	left: 81%
+	top: 49.5%;
+	left: 77.5%
+}
+.pos-lorath {
+	top: 39.5%;
+	left: 79.5%
+}
+.pos-pentos {
+	top: 63%;
+	left: 70%
+}
+.pos-goldenfields {
+	top: 63%;
+	left: 80%
+}
+.pos-valysar {
+	top: 73%;
+	left: 80%
+}
+.pos-flatlands {
+	top: 71%;
+	left: 69%
+}
+.pos-myr-harbor {
+	top: 78.5%;
+	left: 67.7%
+}
+.pos-myr {
+	top: 78.5%;
+	left: 73.5%
+}
+.pos-disputedlands {
+	top: 83.5%;
+	left: 70.5%
+}
+.pos-volantis {
+	top: 83.5%;
+	left: 80%
+}
+.pos-seagard-harbor {
+	top: 49.7%;
+	left: 22.2%
+}
+.pos-gulltown-harbor {
+	top: 51.5%;
+	left: 49.3%
 }
 .pos-pentos-harbor {
-	top: 66%;
-	left: 62%
+	top: 62.6%;
+	left: 63%
 }
 .pos-volantis-harbor {
-	top: 86%;
-	left: 80%
+	top: 89%;
+	left: 78%
 }
 .pos-bayofrhoyne {
 	top: 94%;
-	left: 74%
-}
-.pos-gullet, .pos-thegullet {
-	top: 56%;
-	left: 55%
+	left: 76%
 }
 .pos-seaofmyrth {
-	top: 70%;
-	left: 60%
+	top: 75.5%;
+	left: 61.5%
+}
+.pos-bayofpentos {
+	top: 68.5%;
+	left: 61.5%
 }
 .pos-bayofcrabs {
-	top: 48%;
-	left: 53%
+	top: 48.5%;
+	left: 54%
 }
 .pos-byte, .pos-thebyte {
-	top: 38%;
-	left: 44%
+	top: 37%;
+	left: 45%
 }
-.pos-bayofnorvos {
-	top: 47%;
-	left: 79%
+.pos-bayoflorath {
+	top: 44.5%;
+	left: 76.5%
 }
-
-
 
 .unit.pos-twins ~ .unit.pos-twins,
 .unit.pos-fingers ~ .unit.pos-fingers,
@@ -1280,9 +1478,7 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-crackclawpoint ~ .unit.pos-crackclawpoint,
 .unit.pos-kingslanding ~ .unit.pos-kingslanding,
 .unit.pos-threetowers ~ .unit.pos-threetowers,
-
 .unit.pos-stoneyshore ~ .unit.pos-stoneyshore,
-
 .unit.pos-blackwaterbay ~ .unit.pos-blackwaterbay,
 .unit.pos-eastsummersea ~ .unit.pos-eastsummersea,
 .unit.pos-westsummersea ~ .unit.pos-westsummersea,
@@ -1293,20 +1489,17 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-stormsend ~ .unit.pos-stormsend,
 .unit.pos-stormsend-harbor ~ .unit.pos-stormsend-harbor,
 .unit.pos-starfall ~ .unit.pos-starfall,
-
 .unit.pos-highgarden ~ .unit.pos-highgarden,
 .unit.pos-dornishmarches ~ .unit.pos-dornishmarches,
 .unit.pos-oldtown ~ .unit.pos-oldtown,
 .unit.pos-oldtown-harbor ~ .unit.pos-oldtown-harbor,
-.unit.pos-redwynestraights ~ .unit.pos-redwynestraights,
+.unit.pos-redwynestraits ~ .unit.pos-redwynestraits,
 .unit.pos-sunspear ~ .unit.pos-sunspear,
 .unit.pos-sunspear-harbor ~ .unit.pos-sunspear-harbor,
 .unit.pos-saltshore ~ .unit.pos-saltshore,
 .unit.pos-seaofdorne ~ .unit.pos-seaofdorne,
-
 .unit.pos-pyke ~ .unit.pos-pyke,
 .unit.pos-pyke-harbor ~ .unit.pos-pyke-harbor,
-
 .unit.pos-sunsetsea ~ .unit.pos-sunsetsea,
 .unit.pos-goldensound ~ .unit.pos-goldensound,
 .unit.pos-lannisport ~ .unit.pos-lannisport,
@@ -1316,10 +1509,9 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-riverrun ~ .unit.pos-riverrun,
 .unit.pos-searoadmarches ~ .unit.pos-searoadmarches,
 .unit.pos-blackwater ~ .unit.pos-blackwater,
-.unit.pos-reach ~ .unit.pos-reach,
+.unit.pos-ciderhall ~ .unit.pos-ciderhall,
 .unit.pos-seagard ~ .unit.pos-seagard,
 .unit.pos-ironmansbay ~ .unit.pos-ironmansbay,
-
 .unit.pos-winterfell-harbor ~ .unit.pos-winterfell-harbor,
 .unit.pos-karhold ~ .unit.pos-karhold,
 .unit.pos-stonyshore ~ .unit.pos-stonyshore,
@@ -1338,7 +1530,6 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-shipbreakerbay ~ .unit.pos-shipbreakerbay,
 .unit.pos-winterfell ~ .unit.pos-winterfell,
 .unit.pos-castleblack ~ .unit.pos-castleblack,
-
 .unit.pos-bearisland ~ .unit.pos-bearisland,
 .unit.pos-deepwood ~ .unit.pos-deepwood,
 .unit.pos-dreadfort ~ .unit.pos-dreadfort,
@@ -1347,7 +1538,7 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-bloodygate ~ .unit.pos-bloodygate,
 .unit.pos-kingsroad ~ .unit.pos-kingsroad,
 .unit.pos-gulltown ~ .unit.pos-gulltown,
-.unit.pos-whisperingwood ~ .unit.pos-whisperingwood,
+.unit.pos-fairmarket ~ .unit.pos-fairmarket,
 .unit.pos-banefort ~ .unit.pos-banefort,
 .unit.pos-goldentooth ~ .unit.pos-goldentooth,
 .unit.pos-casterlyrock ~ .unit.pos-casterlyrock,
@@ -1369,13 +1560,29 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-pentos-harbor ~ .unit.pos-pentos-harbor,
 .unit.pos-volantis-harbor ~ .unit.pos-volantis-harbor,
 .unit.pos-bayofrhoyne ~ .unit.pos-bayofrhoyne,
-.unit.pos-thegullet ~ .unit.pos-thegullet,
 .unit.pos-gullet ~ .unit.pos-gullet,
 .unit.pos-seaofmyrth ~ .unit.pos-seaofmyrth,
 .unit.pos-bayofcrabs ~ .unit.pos-bayofcrabs,
 .unit.pos-thebyte ~ .unit.pos-thebyte,
 .unit.pos-byte ~ .unit.pos-byte,
-.unit.pos-bayofnorvos ~ .unit.pos-bayofnorvos {
+.unit.pos-tarth ~ .unit.pos-tarth,
+.unit.pos-queenscrown ~ .unit.pos-queenscrown,
+.unit.pos-blazewaterbay ~ .unit.pos-blazewaterbay,
+.unit.pos-barrowlands ~ .unit.pos-barrowlands,
+.unit.pos-rills ~ .unit.pos-rills,
+.unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare,
+.unit.pos-longlake ~ .unit.pos-longlake,
+.unit.pos-hornwood ~ .unit.pos-hornwood,
+.unit.pos-skagos ~ .unit.pos-skagos,
+.unit.pos-skagos-harbor ~ .unit.pos-skagos-harbor,
+.unit.pos-bayofpentos ~ .unit.pos-bayofpentos,
+.unit.pos-tyrosh ~ .unit.pos-tyrosh,
+.unit.pos-lorath ~ .unit.pos-lorath,
+.unit.pos-valysar ~ .unit.pos-valysar,
+.unit.pos-myr-harbor ~ .unit.pos-myr-harbor,
+.unit.pos-dreadfort-harbor ~ .unit.pos-dreadfort-harbor,
+.unit.pos-flatlands ~ .unit.pos-flatlands,
+.unit.pos-bayoflorath ~ .unit.pos-bayoflorath {
     margin-left: -42px;
     margin-top: -10px;
     z-index: 30;
@@ -1387,9 +1594,7 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-crackclawpoint ~ .unit.pos-crackclawpoint ~ .unit.pos-crackclawpoint,
 .unit.pos-kingslanding ~ .unit.pos-kingslanding ~ .unit.pos-kingslanding,
 .unit.pos-threetowers ~ .unit.pos-threetowers ~ .unit.pos-threetowers,
-
 .unit.pos-stoneyshore ~ .unit.pos-stoneyshore ~ .unit.pos-stoneyshore,
-
 .unit.pos-blackwaterbay ~ .unit.pos-blackwaterbay ~ .unit.pos-blackwaterbay,
 .unit.pos-eastsummersea ~ .unit.pos-eastsummersea ~ .unit.pos-eastsummersea,
 .unit.pos-westsummersea ~ .unit.pos-westsummersea ~ .unit.pos-westsummersea,
@@ -1400,20 +1605,17 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-stormsend ~ .unit.pos-stormsend ~ .unit.pos-stormsend,
 .unit.pos-stormsend-harbor ~ .unit.pos-stormsend-harbor ~ .unit.pos-stormsend-harbor,
 .unit.pos-starfall ~ .unit.pos-starfall ~ .unit.pos-starfall,
-
 .unit.pos-highgarden ~ .unit.pos-highgarden ~ .unit.pos-highgarden,
 .unit.pos-dornishmarches ~ .unit.pos-dornishmarches ~ .unit.pos-dornishmarches,
 .unit.pos-oldtown ~ .unit.pos-oldtown ~ .unit.pos-oldtown,
 .unit.pos-oldtown-harbor ~ .unit.pos-oldtown-harbor ~ .unit.pos-oldtown-harbor,
-.unit.pos-redwynestraights ~ .unit.pos-redwynestraights ~ .unit.pos-redwynestraights,
+.unit.pos-redwynestraits ~ .unit.pos-redwynestraits ~ .unit.pos-redwynestraits,
 .unit.pos-sunspear ~ .unit.pos-sunspear ~ .unit.pos-sunspear,
 .unit.pos-sunspear-harbor ~ .unit.pos-sunspear-harbor ~ .unit.pos-sunspear-harbor,
 .unit.pos-saltshore ~ .unit.pos-saltshore ~ .unit.pos-saltshore,
 .unit.pos-seaofdorne ~ .unit.pos-seaofdorne ~ .unit.pos-seaofdorne,
-
 .unit.pos-pyke ~ .unit.pos-pyke ~ .unit.pos-pyke,
 .unit.pos-pyke-harbor ~ .unit.pos-pyke-harbor ~ .unit.pos-pyke-harbor,
-
 .unit.pos-sunsetsea ~ .unit.pos-sunsetsea ~ .unit.pos-sunsetsea,
 .unit.pos-goldensound ~ .unit.pos-goldensound ~ .unit.pos-goldensound,
 .unit.pos-lannisport ~ .unit.pos-lannisport ~ .unit.pos-lannisport,
@@ -1423,10 +1625,9 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-riverrun ~ .unit.pos-riverrun ~ .unit.pos-riverrun,
 .unit.pos-searoadmarches ~ .unit.pos-searoadmarches ~ .unit.pos-searoadmarches,
 .unit.pos-blackwater ~ .unit.pos-blackwater ~ .unit.pos-blackwater,
-.unit.pos-reach ~ .unit.pos-reach ~ .unit.pos-reach,
+.unit.pos-ciderhall ~ .unit.pos-ciderhall ~ .unit.pos-ciderhall,
 .unit.pos-seagard ~ .unit.pos-seagard ~ .unit.pos-seagard,
 .unit.pos-ironmansbay ~ .unit.pos-ironmansbay ~ .unit.pos-ironmansbay,
-
 .unit.pos-winterfell-harbor ~ .unit.pos-winterfell-harbor ~ .unit.pos-winterfell-harbor,
 .unit.pos-karhold ~ .unit.pos-karhold ~ .unit.pos-karhold,
 .unit.pos-stonyshore ~ .unit.pos-stonyshore ~ .unit.pos-stonyshore,
@@ -1445,7 +1646,6 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-shipbreakerbay ~ .unit.pos-shipbreakerbay ~ .unit.pos-shipbreakerbay,
 .unit.pos-winterfell ~ .unit.pos-winterfell ~ .unit.pos-winterfell,
 .unit.pos-castleblack ~ .unit.pos-castleblack ~ .unit.pos-castleblack,
-
 .unit.pos-bearisland ~ .unit.pos-bearisland ~ .unit.pos-bearisland,
 .unit.pos-deepwood ~ .unit.pos-deepwood ~ .unit.pos-deepwood,
 .unit.pos-dreadfort ~ .unit.pos-dreadfort ~ .unit.pos-dreadfort,
@@ -1454,7 +1654,7 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-bloodygate ~ .unit.pos-bloodygate ~ .unit.pos-bloodygate,
 .unit.pos-kingsroad ~ .unit.pos-kingsroad ~ .unit.pos-kingsroad,
 .unit.pos-gulltown ~ .unit.pos-gulltown ~ .unit.pos-gulltown,
-.unit.pos-whisperingwood ~ .unit.pos-whisperingwood ~ .unit.pos-whisperingwood,
+.unit.pos-fairmarket ~ .unit.pos-fairmarket ~ .unit.pos-fairmarket,
 .unit.pos-banefort ~ .unit.pos-banefort ~ .unit.pos-banefort,
 .unit.pos-goldentooth ~ .unit.pos-goldentooth ~ .unit.pos-goldentooth,
 .unit.pos-casterlyrock ~ .unit.pos-casterlyrock ~ .unit.pos-casterlyrock,
@@ -1482,7 +1682,25 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-bayofcrabs ~ .unit.pos-bayofcrabs ~ .unit.pos-bayofcrabs,
 .unit.pos-thebyte ~ .unit.pos-thebyte ~ .unit.pos-thebyte,
 .unit.pos-byte ~ .unit.pos-byte ~ .unit.pos-byte,
-.unit.pos-bayofnorvos ~ .unit.pos-bayofnorvos ~ .unit.pos-bayofnorvos {
+.unit.pos-bayofnorvos ~ .unit.pos-bayofnorvos ~ .unit.pos-bayofnorvos,
+.unit.pos-tarth ~ .unit.pos-tarth ~ .unit.pos-tarth,
+.unit.pos-queenscrown ~ .unit.pos-queenscrown ~ .unit.pos-queenscrown,
+.unit.pos-blazewaterbay ~ .unit.pos-blazewaterbay ~ .unit.pos-blazewaterbay,
+.unit.pos-barrowlands ~ .unit.pos-barrowlands ~ .unit.pos-barrowlands,
+.unit.pos-rills ~ .unit.pos-rills ~ .unit.pos-rills,
+.unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare,
+.unit.pos-longlake ~ .unit.pos-longlake ~ .unit.pos-longlake,
+.unit.pos-hornwood ~ .unit.pos-hornwood ~ .unit.pos-hornwood,
+.unit.pos-skagos ~ .unit.pos-skagos ~ .unit.pos-skagos,
+.unit.pos-skagos-harbor ~ .unit.pos-skagos-harbor ~ .unit.pos-skagos-harbor,
+.unit.pos-bayofpentos ~ .unit.pos-bayofpentos ~ .unit.pos-bayofpentos,
+.unit.pos-tyrosh ~ .unit.pos-tyrosh ~ .unit.pos-tyrosh,
+.unit.pos-lorath ~ .unit.pos-lorath ~ .unit.pos-lorath,
+.unit.pos-valysar ~ .unit.pos-valysar ~ .unit.pos-valysar,
+.unit.pos-myr-harbor ~ .unit.pos-myr-harbor ~ .unit.pos-myr-harbor,
+.unit.pos-dreadfort-harbor ~ .unit.pos-dreadfort-harbor ~ .unit.pos-dreadfort-harbor,
+.unit.pos-flatlands ~ .unit.pos-flatlands ~ .unit.pos-flatlands,
+.unit.pos-bayoflorath ~ .unit.pos-bayoflorath ~ .unit.pos-bayoflorath {
     margin-left: -63px;
     margin-top: -52px;
     z-index: 15;
@@ -1494,9 +1712,7 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-crackclawpoint ~ .unit.pos-crackclawpoint ~ .unit.pos-crackclawpoint ~ .unit.pos-crackclawpoint,
 .unit.pos-kingslanding ~ .unit.pos-kingslanding ~ .unit.pos-kingslanding ~ .unit.pos-kingslanding,
 .unit.pos-threetowers ~ .unit.pos-threetowers ~ .unit.pos-threetowers ~ .unit.pos-threetowers,
-
 .unit.pos-stoneyshore ~ .unit.pos-stoneyshore ~ .unit.pos-stoneyshore ~ .unit.pos-stoneyshore,
-
 .unit.pos-blackwaterbay ~ .unit.pos-blackwaterbay ~ .unit.pos-blackwaterbay ~ .unit.pos-blackwaterbay,
 .unit.pos-eastsummersea ~ .unit.pos-eastsummersea ~ .unit.pos-eastsummersea ~ .unit.pos-eastsummersea,
 .unit.pos-westsummersea ~ .unit.pos-westsummersea ~ .unit.pos-westsummersea ~ .unit.pos-westsummersea,
@@ -1507,20 +1723,17 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-stormsend ~ .unit.pos-stormsend ~ .unit.pos-stormsend ~ .unit.pos-stormsend,
 .unit.pos-stormsend-harbor ~ .unit.pos-stormsend-harbor ~ .unit.pos-stormsend-harbor ~ .unit.pos-stormsend-harbor,
 .unit.pos-starfall ~ .unit.pos-starfall ~ .unit.pos-starfall ~ .unit.pos-starfall,
-
 .unit.pos-highgarden ~ .unit.pos-highgarden ~ .unit.pos-highgarden ~ .unit.pos-highgarden,
 .unit.pos-dornishmarches ~ .unit.pos-dornishmarches ~ .unit.pos-dornishmarches ~ .unit.pos-dornishmarches,
 .unit.pos-oldtown ~ .unit.pos-oldtown ~ .unit.pos-oldtown ~ .unit.pos-oldtown,
 .unit.pos-oldtown-harbor ~ .unit.pos-oldtown-harbor ~ .unit.pos-oldtown-harbor ~ .unit.pos-oldtown-harbor,
-.unit.pos-redwynestraights ~ .unit.pos-redwynestraights ~ .unit.pos-redwynestraights ~ .unit.pos-redwynestraights,
+.unit.pos-redwynestraits ~ .unit.pos-redwynestraits ~ .unit.pos-redwynestraits ~ .unit.pos-redwynestraits,
 .unit.pos-sunspear ~ .unit.pos-sunspear ~ .unit.pos-sunspear ~ .unit.pos-sunspear,
 .unit.pos-sunspear-harbor ~ .unit.pos-sunspear-harbor ~ .unit.pos-sunspear-harbor ~ .unit.pos-sunspear-harbor,
 .unit.pos-saltshore ~ .unit.pos-saltshore ~ .unit.pos-saltshore ~ .unit.pos-saltshore,
 .unit.pos-seaofdorne ~ .unit.pos-seaofdorne ~ .unit.pos-seaofdorne ~ .unit.pos-seaofdorne,
-
 .unit.pos-pyke ~ .unit.pos-pyke ~ .unit.pos-pyke ~ .unit.pos-pyke,
 .unit.pos-pyke-harbor ~ .unit.pos-pyke-harbor ~ .unit.pos-pyke-harbor ~ .unit.pos-pyke-harbor,
-
 .unit.pos-sunsetsea ~ .unit.pos-sunsetsea ~ .unit.pos-sunsetsea ~ .unit.pos-sunsetsea,
 .unit.pos-goldensound ~ .unit.pos-goldensound ~ .unit.pos-goldensound ~ .unit.pos-goldensound,
 .unit.pos-lannisport ~ .unit.pos-lannisport ~ .unit.pos-lannisport ~ .unit.pos-lannisport,
@@ -1530,10 +1743,9 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-riverrun ~ .unit.pos-riverrun ~ .unit.pos-riverrun ~ .unit.pos-riverrun,
 .unit.pos-searoadmarches ~ .unit.pos-searoadmarches ~ .unit.pos-searoadmarches ~ .unit.pos-searoadmarches,
 .unit.pos-blackwater ~ .unit.pos-blackwater ~ .unit.pos-blackwater ~ .unit.pos-blackwater,
-.unit.pos-reach ~ .unit.pos-reach ~ .unit.pos-reach ~ .unit.pos-reach,
+.unit.pos-ciderhall ~ .unit.pos-ciderhall ~ .unit.pos-ciderhall ~ .unit.pos-ciderhall,
 .unit.pos-seagard ~ .unit.pos-seagard ~ .unit.pos-seagard ~ .unit.pos-seagard,
 .unit.pos-ironmansbay ~ .unit.pos-ironmansbay ~ .unit.pos-ironmansbay ~ .unit.pos-ironmansbay,
-
 .unit.pos-winterfell-harbor ~ .unit.pos-winterfell-harbor ~ .unit.pos-winterfell-harbor ~ .unit.pos-winterfell-harbor,
 .unit.pos-karhold ~ .unit.pos-karhold ~ .unit.pos-karhold ~ .unit.pos-karhold,
 .unit.pos-stonyshore ~ .unit.pos-stonyshore ~ .unit.pos-stonyshore ~ .unit.pos-stonyshore,
@@ -1552,7 +1764,6 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-shipbreakerbay ~ .unit.pos-shipbreakerbay ~ .unit.pos-shipbreakerbay ~ .unit.pos-shipbreakerbay,
 .unit.pos-winterfell ~ .unit.pos-winterfell ~ .unit.pos-winterfell ~ .unit.pos-winterfell,
 .unit.pos-castleblack ~ .unit.pos-castleblack ~ .unit.pos-castleblack ~ .unit.pos-castleblack,
-
 .unit.pos-bearisland ~ .unit.pos-bearisland ~ .unit.pos-bearisland ~ .unit.pos-bearisland,
 .unit.pos-deepwood ~ .unit.pos-deepwood ~ .unit.pos-deepwood ~ .unit.pos-deepwood,
 .unit.pos-dreadfort ~ .unit.pos-dreadfort ~ .unit.pos-dreadfort ~ .unit.pos-dreadfort,
@@ -1561,7 +1772,7 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-bloodygate ~ .unit.pos-bloodygate ~ .unit.pos-bloodygate ~ .unit.pos-bloodygate,
 .unit.pos-kingsroad ~ .unit.pos-kingsroad ~ .unit.pos-kingsroad ~ .unit.pos-kingsroad,
 .unit.pos-gulltown ~ .unit.pos-gulltown ~ .unit.pos-gulltown ~ .unit.pos-gulltown,
-.unit.pos-whisperingwood ~ .unit.pos-whisperingwood ~ .unit.pos-whisperingwood ~ .unit.pos-whisperingwood,
+.unit.pos-fairmarket ~ .unit.pos-fairmarket ~ .unit.pos-fairmarket ~ .unit.pos-fairmarket,
 .unit.pos-banefort ~ .unit.pos-banefort ~ .unit.pos-banefort ~ .unit.pos-banefort,
 .unit.pos-goldentooth ~ .unit.pos-goldentooth ~ .unit.pos-goldentooth ~ .unit.pos-goldentooth,
 .unit.pos-casterlyrock ~ .unit.pos-casterlyrock ~ .unit.pos-casterlyrock ~ .unit.pos-casterlyrock,
@@ -1589,11 +1800,148 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-bayofcrabs ~ .unit.pos-bayofcrabs ~ .unit.pos-bayofcrabs ~ .unit.pos-bayofcrabs,
 .unit.pos-thebyte ~ .unit.pos-thebyte ~ .unit.pos-thebyte ~ .unit.pos-thebyte,
 .unit.pos-byte ~ .unit.pos-byte ~ .unit.pos-byte ~ .unit.pos-byte,
-.unit.pos-bayofnorvos ~ .unit.pos-bayofnorvos ~ .unit.pos-bayofnorvos ~ .unit.pos-bayofnorvos {
+.unit.pos-bayofnorvos ~ .unit.pos-bayofnorvos ~ .unit.pos-bayofnorvos ~ .unit.pos-bayofnorvos,
+.unit.pos-tarth ~ .unit.pos-tarth ~ .unit.pos-tarth ~ .unit.pos-tarth,
+.unit.pos-queenscrown ~ .unit.pos-queenscrown ~ .unit.pos-queenscrown ~ .unit.pos-queenscrown,
+.unit.pos-blazewaterbay ~ .unit.pos-blazewaterbay ~ .unit.pos-blazewaterbay ~ .unit.pos-blazewaterbay,
+.unit.pos-barrowlands ~ .unit.pos-barrowlands ~ .unit.pos-barrowlands ~ .unit.pos-barrowlands,
+.unit.pos-rills ~ .unit.pos-rills ~ .unit.pos-rills ~ .unit.pos-rills,
+.unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare,
+.unit.pos-longlake ~ .unit.pos-longlake ~ .unit.pos-longlake ~ .unit.pos-longlake,
+.unit.pos-hornwood ~ .unit.pos-hornwood ~ .unit.pos-hornwood ~ .unit.pos-hornwood,
+.unit.pos-skagos ~ .unit.pos-skagos ~ .unit.pos-skagos ~ .unit.pos-skagos,
+.unit.pos-skagos-harbor ~ .unit.pos-skagos-harbor ~ .unit.pos-skagos-harbor ~ .unit.pos-skagos-harbor,
+.unit.pos-bayofpentos ~ .unit.pos-bayofpentos ~ .unit.pos-bayofpentos ~ .unit.pos-bayofpentos,
+.unit.pos-tyrosh ~ .unit.pos-tyrosh ~ .unit.pos-tyrosh ~ .unit.pos-tyrosh,
+.unit.pos-lorath ~ .unit.pos-lorath ~ .unit.pos-lorath ~ .unit.pos-lorath,
+.unit.pos-valysar ~ .unit.pos-valysar ~ .unit.pos-valysar ~ .unit.pos-valysar,
+.unit.pos-myr-harbor ~ .unit.pos-myr-harbor ~ .unit.pos-myr-harbor ~ .unit.pos-myr-harbor,
+.unit.pos-dreadfort-harbor ~ .unit.pos-dreadfort-harbor ~ .unit.pos-dreadfort-harbor ~ .unit.pos-dreadfort-harbor,
+.unit.pos-flatlands ~ .unit.pos-flatlands ~ .unit.pos-flatlands ~ .unit.pos-flatlands,
+.unit.pos-bayoflorath ~ .unit.pos-bayoflorath ~ .unit.pos-bayoflorath ~ .unit.pos-bayoflorath {
     margin-left: 0px;
     margin-top: -10px;
     z-index: 25;
 }
+.unit.pos-twins ~ .unit.pos-twins ~ .unit.pos-twins ~ .unit.pos-twins ~ .unit.pos-twins,
+.unit.pos-fingers ~ .unit.pos-fingers ~ .unit.pos-fingers ~ .unit.pos-fingers ~ .unit.pos-fingers,
+.unit.pos-mountainsofthemoon ~ .unit.pos-mountainsofthemoon ~ .unit.pos-mountainsofthemoon ~ .unit.pos-mountainsofthemoon ~ .unit.pos-mountainsofthemoon,
+.unit.pos-eyrie ~ .unit.pos-eyrie ~ .unit.pos-eyrie ~ .unit.pos-eyrie ~ .unit.pos-eyrie,
+.unit.pos-crackclawpoint ~ .unit.pos-crackclawpoint ~ .unit.pos-crackclawpoint ~ .unit.pos-crackclawpoint ~ .unit.pos-crackclawpoint,
+.unit.pos-kingslanding ~ .unit.pos-kingslanding ~ .unit.pos-kingslanding ~ .unit.pos-kingslanding ~ .unit.pos-kingslanding,
+.unit.pos-threetowers ~ .unit.pos-threetowers ~ .unit.pos-threetowers ~ .unit.pos-threetowers ~ .unit.pos-threetowers,
+.unit.pos-stoneyshore ~ .unit.pos-stoneyshore ~ .unit.pos-stoneyshore ~ .unit.pos-stoneyshore ~ .unit.pos-stoneyshore,
+.unit.pos-blackwaterbay ~ .unit.pos-blackwaterbay ~ .unit.pos-blackwaterbay ~ .unit.pos-blackwaterbay ~ .unit.pos-blackwaterbay,
+.unit.pos-eastsummersea ~ .unit.pos-eastsummersea ~ .unit.pos-eastsummersea ~ .unit.pos-eastsummersea ~ .unit.pos-eastsummersea,
+.unit.pos-westsummersea ~ .unit.pos-westsummersea ~ .unit.pos-westsummersea ~ .unit.pos-westsummersea ~ .unit.pos-westsummersea,
+.unit.pos-arbor ~ .unit.pos-arbor ~ .unit.pos-arbor ~ .unit.pos-arbor ~ .unit.pos-arbor,
+.unit.pos-boneway ~ .unit.pos-boneway ~ .unit.pos-boneway ~ .unit.pos-boneway ~ .unit.pos-boneway,
+.unit.pos-princespass ~ .unit.pos-princespass ~ .unit.pos-princespass ~ .unit.pos-princespass ~ .unit.pos-princespass,
+.unit.pos-yronwood ~ .unit.pos-yronwood ~ .unit.pos-yronwood ~ .unit.pos-yronwood ~ .unit.pos-yronwood,
+.unit.pos-stormsend ~ .unit.pos-stormsend ~ .unit.pos-stormsend ~ .unit.pos-stormsend ~ .unit.pos-stormsend,
+.unit.pos-stormsend-harbor ~ .unit.pos-stormsend-harbor ~ .unit.pos-stormsend-harbor ~ .unit.pos-stormsend-harbor ~ .unit.pos-stormsend-harbor,
+.unit.pos-starfall ~ .unit.pos-starfall ~ .unit.pos-starfall ~ .unit.pos-starfall ~ .unit.pos-starfall,
+.unit.pos-highgarden ~ .unit.pos-highgarden ~ .unit.pos-highgarden ~ .unit.pos-highgarden ~ .unit.pos-highgarden,
+.unit.pos-dornishmarches ~ .unit.pos-dornishmarches ~ .unit.pos-dornishmarches ~ .unit.pos-dornishmarches ~ .unit.pos-dornishmarches,
+.unit.pos-oldtown ~ .unit.pos-oldtown ~ .unit.pos-oldtown ~ .unit.pos-oldtown ~ .unit.pos-oldtown,
+.unit.pos-oldtown-harbor ~ .unit.pos-oldtown-harbor ~ .unit.pos-oldtown-harbor ~ .unit.pos-oldtown-harbor ~ .unit.pos-oldtown-harbor,
+.unit.pos-redwynestraits ~ .unit.pos-redwynestraits ~ .unit.pos-redwynestraits ~ .unit.pos-redwynestraits ~ .unit.pos-redwynestraits,
+.unit.pos-sunspear ~ .unit.pos-sunspear ~ .unit.pos-sunspear ~ .unit.pos-sunspear ~ .unit.pos-sunspear,
+.unit.pos-sunspear-harbor ~ .unit.pos-sunspear-harbor ~ .unit.pos-sunspear-harbor ~ .unit.pos-sunspear-harbor ~ .unit.pos-sunspear-harbor,
+.unit.pos-saltshore ~ .unit.pos-saltshore ~ .unit.pos-saltshore ~ .unit.pos-saltshore ~ .unit.pos-saltshore,
+.unit.pos-seaofdorne ~ .unit.pos-seaofdorne ~ .unit.pos-seaofdorne ~ .unit.pos-seaofdorne ~ .unit.pos-seaofdorne,
+.unit.pos-pyke ~ .unit.pos-pyke ~ .unit.pos-pyke ~ .unit.pos-pyke ~ .unit.pos-pyke,
+.unit.pos-pyke-harbor ~ .unit.pos-pyke-harbor ~ .unit.pos-pyke-harbor ~ .unit.pos-pyke-harbor ~ .unit.pos-pyke-harbor,
+.unit.pos-sunsetsea ~ .unit.pos-sunsetsea ~ .unit.pos-sunsetsea ~ .unit.pos-sunsetsea ~ .unit.pos-sunsetsea,
+.unit.pos-goldensound ~ .unit.pos-goldensound ~ .unit.pos-goldensound ~ .unit.pos-goldensound ~ .unit.pos-goldensound,
+.unit.pos-lannisport ~ .unit.pos-lannisport ~ .unit.pos-lannisport ~ .unit.pos-lannisport ~ .unit.pos-lannisport,
+.unit.pos-lannisport-harbor ~ .unit.pos-lannisport-harbor ~ .unit.pos-lannisport-harbor ~ .unit.pos-lannisport-harbor ~ .unit.pos-lannisport-harbor,
+.unit.pos-stoneysept ~ .unit.pos-stoneysept ~ .unit.pos-stoneysept ~ .unit.pos-stoneysept ~ .unit.pos-stoneysept,
+.unit.pos-harrenhal ~ .unit.pos-harrenhal ~ .unit.pos-harrenhal ~ .unit.pos-harrenhal ~ .unit.pos-harrenhal,
+.unit.pos-riverrun ~ .unit.pos-riverrun ~ .unit.pos-riverrun ~ .unit.pos-riverrun ~ .unit.pos-riverrun,
+.unit.pos-searoadmarches ~ .unit.pos-searoadmarches ~ .unit.pos-searoadmarches ~ .unit.pos-searoadmarches ~ .unit.pos-searoadmarches,
+.unit.pos-blackwater ~ .unit.pos-blackwater ~ .unit.pos-blackwater ~ .unit.pos-blackwater ~ .unit.pos-blackwater,
+.unit.pos-ciderhall ~ .unit.pos-ciderhall ~ .unit.pos-ciderhall ~ .unit.pos-ciderhall ~ .unit.pos-ciderhall,
+.unit.pos-seagard ~ .unit.pos-seagard ~ .unit.pos-seagard ~ .unit.pos-seagard ~ .unit.pos-seagard,
+.unit.pos-ironmansbay ~ .unit.pos-ironmansbay ~ .unit.pos-ironmansbay ~ .unit.pos-ironmansbay ~ .unit.pos-ironmansbay,
+.unit.pos-winterfell-harbor ~ .unit.pos-winterfell-harbor ~ .unit.pos-winterfell-harbor ~ .unit.pos-winterfell-harbor ~ .unit.pos-winterfell-harbor,
+.unit.pos-karhold ~ .unit.pos-karhold ~ .unit.pos-karhold ~ .unit.pos-karhold ~ .unit.pos-karhold,
+.unit.pos-stonyshore ~ .unit.pos-stonyshore ~ .unit.pos-stonyshore ~ .unit.pos-stonyshore ~ .unit.pos-stonyshore,
+.unit.pos-whiteharbor ~ .unit.pos-whiteharbor ~ .unit.pos-whiteharbor ~ .unit.pos-whiteharbor ~ .unit.pos-whiteharbor,
+.unit.pos-whiteharbor-harbor ~ .unit.pos-whiteharbor-harbor ~ .unit.pos-whiteharbor-harbor ~ .unit.pos-whiteharbor-harbor ~ .unit.pos-whiteharbor-harbor,
+.unit.pos-widowswatch ~ .unit.pos-widowswatch ~ .unit.pos-widowswatch ~ .unit.pos-widowswatch ~ .unit.pos-widowswatch,
+.unit.pos-flintsfinger ~ .unit.pos-flintsfinger ~ .unit.pos-flintsfinger ~ .unit.pos-flintsfinger ~ .unit.pos-flintsfinger,
+.unit.pos-greywaterwatch ~ .unit.pos-greywaterwatch ~ .unit.pos-greywaterwatch ~ .unit.pos-greywaterwatch ~ .unit.pos-greywaterwatch,
+.unit.pos-moatcailin ~ .unit.pos-moatcailin ~ .unit.pos-moatcailin ~ .unit.pos-moatcailin ~ .unit.pos-moatcailin,
+.unit.pos-dragonstone ~ .unit.pos-dragonstone ~ .unit.pos-dragonstone ~ .unit.pos-dragonstone ~ .unit.pos-dragonstone,
+.unit.pos-dragonstone-harbor ~ .unit.pos-dragonstone-harbor ~ .unit.pos-dragonstone-harbor ~ .unit.pos-dragonstone-harbor ~ .unit.pos-dragonstone-harbor,
+.unit.pos-kingswood ~ .unit.pos-kingswood ~ .unit.pos-kingswood ~ .unit.pos-kingswood ~ .unit.pos-kingswood,
+.unit.pos-bayofice ~ .unit.pos-bayofice ~ .unit.pos-bayofice ~ .unit.pos-bayofice ~ .unit.pos-bayofice,
+.unit.pos-shiveringsea ~ .unit.pos-shiveringsea ~ .unit.pos-shiveringsea ~ .unit.pos-shiveringsea ~ .unit.pos-shiveringsea,
+.unit.pos-narrowsea ~ .unit.pos-narrowsea ~ .unit.pos-narrowsea ~ .unit.pos-narrowsea ~ .unit.pos-narrowsea,
+.unit.pos-shipbreakerbay ~ .unit.pos-shipbreakerbay ~ .unit.pos-shipbreakerbay ~ .unit.pos-shipbreakerbay ~ .unit.pos-shipbreakerbay,
+.unit.pos-winterfell ~ .unit.pos-winterfell ~ .unit.pos-winterfell ~ .unit.pos-winterfell ~ .unit.pos-winterfell,
+.unit.pos-castleblack ~ .unit.pos-castleblack ~ .unit.pos-castleblack ~ .unit.pos-castleblack ~ .unit.pos-castleblack,
+.unit.pos-bearisland ~ .unit.pos-bearisland ~ .unit.pos-bearisland ~ .unit.pos-bearisland ~ .unit.pos-bearisland,
+.unit.pos-deepwood ~ .unit.pos-deepwood ~ .unit.pos-deepwood ~ .unit.pos-deepwood ~ .unit.pos-deepwood,
+.unit.pos-dreadfort ~ .unit.pos-dreadfort ~ .unit.pos-dreadfort ~ .unit.pos-dreadfort ~ .unit.pos-dreadfort,
+.unit.pos-deepwood-harbor ~ .unit.pos-deepwood-harbor ~ .unit.pos-deepwood-harbor ~ .unit.pos-deepwood-harbor ~ .unit.pos-deepwood-harbor,
+.unit.pos-vale ~ .unit.pos-vale ~ .unit.pos-vale ~ .unit.pos-vale ~ .unit.pos-vale,
+.unit.pos-bloodygate ~ .unit.pos-bloodygate ~ .unit.pos-bloodygate ~ .unit.pos-bloodygate ~ .unit.pos-bloodygate,
+.unit.pos-kingsroad ~ .unit.pos-kingsroad ~ .unit.pos-kingsroad ~ .unit.pos-kingsroad ~ .unit.pos-kingsroad,
+.unit.pos-gulltown ~ .unit.pos-gulltown ~ .unit.pos-gulltown ~ .unit.pos-gulltown ~ .unit.pos-gulltown,
+.unit.pos-fairmarket ~ .unit.pos-fairmarket ~ .unit.pos-fairmarket ~ .unit.pos-fairmarket ~ .unit.pos-fairmarket,
+.unit.pos-banefort ~ .unit.pos-banefort ~ .unit.pos-banefort ~ .unit.pos-banefort ~ .unit.pos-banefort,
+.unit.pos-goldentooth ~ .unit.pos-goldentooth ~ .unit.pos-goldentooth ~ .unit.pos-goldentooth ~ .unit.pos-goldentooth,
+.unit.pos-casterlyrock ~ .unit.pos-casterlyrock ~ .unit.pos-casterlyrock ~ .unit.pos-casterlyrock ~ .unit.pos-casterlyrock,
+.unit.pos-bitterbridge ~ .unit.pos-bitterbridge ~ .unit.pos-bitterbridge ~ .unit.pos-bitterbridge ~ .unit.pos-bitterbridge,
+.unit.pos-rainwood ~ .unit.pos-rainwood ~ .unit.pos-rainwood ~ .unit.pos-rainwood ~ .unit.pos-rainwood,
+.unit.pos-lys ~ .unit.pos-lys ~ .unit.pos-lys ~ .unit.pos-lys ~ .unit.pos-lys,
+.unit.pos-braavos ~ .unit.pos-braavos ~ .unit.pos-braavos ~ .unit.pos-braavos ~ .unit.pos-braavos,
+.unit.pos-andalos ~ .unit.pos-andalos ~ .unit.pos-andalos ~ .unit.pos-andalos ~ .unit.pos-andalos,
+.unit.pos-norvos ~ .unit.pos-norvos ~ .unit.pos-norvos ~ .unit.pos-norvos ~ .unit.pos-norvos,
+.unit.pos-pentos ~ .unit.pos-pentos ~ .unit.pos-pentos ~ .unit.pos-pentos ~ .unit.pos-pentos,
+.unit.pos-goldenfields ~ .unit.pos-goldenfields ~ .unit.pos-goldenfields ~ .unit.pos-goldenfields ~ .unit.pos-goldenfields,
+.unit.pos-myr ~ .unit.pos-myr ~ .unit.pos-myr ~ .unit.pos-myr ~ .unit.pos-myr,
+.unit.pos-disputedlands ~ .unit.pos-disputedlands ~ .unit.pos-disputedlands ~ .unit.pos-disputedlands ~ .unit.pos-disputedlands,
+.unit.pos-volantis ~ .unit.pos-volantis ~ .unit.pos-volantis ~ .unit.pos-volantis ~ .unit.pos-volantis,
+.unit.pos-seagard-harbor ~ .unit.pos-seagard-harbor ~ .unit.pos-seagard-harbor ~ .unit.pos-seagard-harbor ~ .unit.pos-seagard-harbor,
+.unit.pos-gulltown-harbor ~ .unit.pos-gulltown-harbor ~ .unit.pos-gulltown-harbor ~ .unit.pos-gulltown-harbor ~ .unit.pos-gulltown-harbor,
+.unit.pos-norvos-harbor ~ .unit.pos-norvos-harbor ~ .unit.pos-norvos-harbor ~ .unit.pos-norvos-harbor ~ .unit.pos-norvos-harbor,
+.unit.pos-braavos-harbor ~ .unit.pos-braavos-harbor ~ .unit.pos-braavos-harbor ~ .unit.pos-braavos-harbor ~ .unit.pos-braavos-harbor,
+.unit.pos-pentos-harbor ~ .unit.pos-pentos-harbor ~ .unit.pos-pentos-harbor ~ .unit.pos-pentos-harbor ~ .unit.pos-pentos-harbor,
+.unit.pos-volantis-harbor ~ .unit.pos-volantis-harbor ~ .unit.pos-volantis-harbor ~ .unit.pos-volantis-harbor ~ .unit.pos-volantis-harbor,
+.unit.pos-bayofrhoyne ~ .unit.pos-bayofrhoyne ~ .unit.pos-bayofrhoyne ~ .unit.pos-bayofrhoyne ~ .unit.pos-bayofrhoyne,
+.unit.pos-thegullet ~ .unit.pos-thegullet ~ .unit.pos-thegullet ~ .unit.pos-thegullet ~ .unit.pos-thegullet,
+.unit.pos-gullet ~ .unit.pos-gullet ~ .unit.pos-gullet ~ .unit.pos-gullet ~ .unit.pos-gullet,
+.unit.pos-seaofmyrth ~ .unit.pos-seaofmyrth ~ .unit.pos-seaofmyrth ~ .unit.pos-seaofmyrth ~ .unit.pos-seaofmyrth,
+.unit.pos-bayofcrabs ~ .unit.pos-bayofcrabs ~ .unit.pos-bayofcrabs ~ .unit.pos-bayofcrabs ~ .unit.pos-bayofcrabs,
+.unit.pos-thebyte ~ .unit.pos-thebyte ~ .unit.pos-thebyte ~ .unit.pos-thebyte ~ .unit.pos-thebyte,
+.unit.pos-byte ~ .unit.pos-byte ~ .unit.pos-byte ~ .unit.pos-byte ~ .unit.pos-byte,
+.unit.pos-bayofnorvos ~ .unit.pos-bayofnorvos ~ .unit.pos-bayofnorvos ~ .unit.pos-bayofnorvos ~ .unit.pos-bayofnorvos,
+.unit.pos-tarth ~ .unit.pos-tarth ~ .unit.pos-tarth ~ .unit.pos-tarth ~ .unit.pos-tarth,
+.unit.pos-queenscrown ~ .unit.pos-queenscrown ~ .unit.pos-queenscrown ~ .unit.pos-queenscrown ~ .unit.pos-queenscrown,
+.unit.pos-blazewaterbay ~ .unit.pos-blazewaterbay ~ .unit.pos-blazewaterbay ~ .unit.pos-blazewaterbay ~ .unit.pos-blazewaterbay,
+.unit.pos-barrowlands ~ .unit.pos-barrowlands ~ .unit.pos-barrowlands ~ .unit.pos-barrowlands ~ .unit.pos-barrowlands,
+.unit.pos-rills ~ .unit.pos-rills ~ .unit.pos-rills ~ .unit.pos-rills ~ .unit.pos-rills,
+.unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare,
+.unit.pos-longlake ~ .unit.pos-longlake ~ .unit.pos-longlake ~ .unit.pos-longlake ~ .unit.pos-longlake,
+.unit.pos-hornwood ~ .unit.pos-hornwood ~ .unit.pos-hornwood ~ .unit.pos-hornwood ~ .unit.pos-hornwood,
+.unit.pos-skagos ~ .unit.pos-skagos ~ .unit.pos-skagos ~ .unit.pos-skagos ~ .unit.pos-skagos,
+.unit.pos-skagos-harbor ~ .unit.pos-skagos-harbor ~ .unit.pos-skagos-harbor ~ .unit.pos-skagos-harbor ~ .unit.pos-skagos-harbor,
+.unit.pos-bayofpentos ~ .unit.pos-bayofpentos ~ .unit.pos-bayofpentos ~ .unit.pos-bayofpentos ~ .unit.pos-bayofpentos,
+.unit.pos-tyrosh ~ .unit.pos-tyrosh ~ .unit.pos-tyrosh ~ .unit.pos-tyrosh ~ .unit.pos-tyrosh,
+.unit.pos-lorath ~ .unit.pos-lorath ~ .unit.pos-lorath ~ .unit.pos-lorath ~ .unit.pos-lorath,
+.unit.pos-valysar ~ .unit.pos-valysar ~ .unit.pos-valysar ~ .unit.pos-valysar ~ .unit.pos-valysar,
+.unit.pos-myr-harbor ~ .unit.pos-myr-harbor ~ .unit.pos-myr-harbor ~ .unit.pos-myr-harbor ~ .unit.pos-myr-harbor,
+.unit.pos-dreadfort-harbor ~ .unit.pos-dreadfort-harbor ~ .unit.pos-dreadfort-harbor ~ .unit.pos-dreadfort-harbor ~ .unit.pos-dreadfort-harbor,
+.unit.pos-flatlands ~ .unit.pos-flatlands ~ .unit.pos-flatlands ~ .unit.pos-flatlands ~ .unit.pos-flatlands,
+.unit.pos-bayoflorath ~ .unit.pos-bayoflorath ~ .unit.pos-bayoflorath ~ .unit.pos-bayoflorath ~ .unit.pos-bayoflorath {
+    margin-left: -80px;
+    margin-top: -10px;
+    z-index: 35;
+}
+
 [class^="order-"],
 [class*=" order-"] {
     z-index: 50;
@@ -1736,7 +2084,7 @@ input[type="checkbox"][name^="housecard-"]:checked + label {
 [class^="tokenCounts-"],
 [class*=" tokenCounts-"] {
     position: absolute;
-    top: 6%;
+    top: 1.5%;
     cursor: pointer;
     text-shadow: 1px 1px 2px #000;
     color: #fff;
@@ -1746,32 +2094,43 @@ input[type="checkbox"][name^="housecard-"]:checked + label {
     margin: 0;
     font-size: 1.3em;
 }
+.tokenCounts-viserys {
+    left: 0.5%;
+}
 .tokenCounts-tyrell {
-    left: 506px;
+    left: 2.5%;
 }
 .tokenCounts-tully {
-	left: 444px;
+	left: 4.5%;
 }
 .tokenCounts-targaryen {
-	left: 382px;
+	left: 6.5%;
 }
 .tokenCounts-stark {
-    left: 320px;
+    left: 8.5%;
 }
 .tokenCounts-martell {
-    left: 258px;
+    left: 10.5%;
 }
 .tokenCounts-lannister {
-    left: 196px;
+    left: 0.5%;
+	top: 5%;
 }
 .tokenCounts-greyjoy {
-    left: 134px;
+    left: 2.5%;
+	top: 5%;
+}
+.tokenCounts-bolton {
+    left: 4.5%;
+	top: 5%;
 }
 .tokenCounts-baratheon {
-    left: 72px;
+    left: 6.5%;
+	top: 5%;
 }
 .tokenCounts-arryn {
-	left: 10px;
+	left: 8.5%;
+	top: 5%;
 }
 .availablePowertokens {
     display: inline;
@@ -1794,6 +2153,7 @@ input[type="checkbox"][name^="housecard-"]:checked + label {
 .leftPowertokens:hover {
     text-decoration: underline;
 }
+
 .vsb-token {
     position: absolute;
     right: 6%;

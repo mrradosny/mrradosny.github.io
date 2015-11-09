@@ -145,17 +145,20 @@ var $board = $('.board'),
             "units": {
 				"arryn": $('[name="units-arryn"]').val(),
                 "baratheon": $('[name="units-baratheon"]').val(),
+				"bolton": $('[name="units-bolton"]').val(),
                 "greyjoy": $('[name="units-greyjoy"]').val(),
                 "lannister": $('[name="units-lannister"]').val(),
                 "martell": $('[name="units-martell"]').val(),
                 "stark": $('[name="units-stark"]').val(),
 				"targaryen": $('[name="units-targaryen"]').val(),
 				"tully": $('[name="units-tully"]').val(),
-				"tyrell": $('[name="units-tyrell"]').val()
+				"tyrell": $('[name="units-tyrell"]').val(),
+				"viserys": $('[name="units-viserys"]').val()
             },
             
             "orders": {
                 "arryn": $('[name="orders-arryn"]').val(),
+				"bolton": $('[name="orders-bolton"]').val(),
 				"baratheon": $('[name="orders-baratheon"]').val(),
                 "greyjoy": $('[name="orders-greyjoy"]').val(),
                 "lannister": $('[name="orders-lannister"]').val(),
@@ -163,11 +166,13 @@ var $board = $('.board'),
                 "stark": $('[name="orders-stark"]').val(),
                 "targaryen": $('[name="orders-targaryen"]').val(),
 				"tully": $('[name="orders-tully"]').val(),
-				"tyrell": $('[name="orders-tyrell"]').val()
+				"tyrell": $('[name="orders-tyrell"]').val(),
+				"viserys": $('[name="orders-viserys"]').val()
             },
             
             "powertokens": {
                 "arryn": $('[name="powertokens-arryn"]').val(),
+				"bolton": $('[name="powertokens-bolton"]').val(),
 				"baratheon": $('[name="powertokens-baratheon"]').val(),
                 "greyjoy": $('[name="powertokens-greyjoy"]').val(),
                 "lannister": $('[name="powertokens-lannister"]').val(),
@@ -175,11 +180,13 @@ var $board = $('.board'),
                 "stark": $('[name="powertokens-stark"]').val(),
                 "targaryen": $('[name="powertokens-targaryen"]').val(),
 				"tully": $('[name="powertokens-tully"]').val(),
-				"tyrell": $('[name="powertokens-tyrell"]').val()
+				"tyrell": $('[name="powertokens-tyrell"]').val(),
+				"viserys": $('[name="powertokens-viserys"]').val()
             },
             
             "housecards": {
                 "arryn": $('[name="housecards-arryn"]').val(),
+				"bolton": $('[name="housecards-bolton"]').val(),
 				"baratheon": $('[name="housecards-baratheon"]').val(),
                 "greyjoy": $('[name="housecards-greyjoy"]').val(),
                 "lannister": $('[name="housecards-lannister"]').val(),
@@ -187,7 +194,8 @@ var $board = $('.board'),
                 "stark": $('[name="housecards-stark"]').val(),
                 "targaryen": $('[name="housecards-targaryen"]').val(),
 				"tully": $('[name="housecards-tully"]').val(),
-				"tyrell": $('[name="housecards-tyrell"]').val()
+				"tyrell": $('[name="housecards-tyrell"]').val(),
+				"viserys": $('[name="housecards-viserys"]').val()
             },
 			
 			"housecardTracking": {
@@ -199,6 +207,15 @@ var $board = $('.board'),
 					$('[name="housecard-4-arryn"]').is(':checked'),
 					$('[name="housecard-5-arryn"]').is(':checked'),
 					$('[name="housecard-6-arryn"]').is(':checked')
+				],
+				"bolton": [
+					$('[name="housecard-0-bolton"]').is(':checked'),
+					$('[name="housecard-1-bolton"]').is(':checked'),
+					$('[name="housecard-2-bolton"]').is(':checked'),
+					$('[name="housecard-3-bolton"]').is(':checked'),
+					$('[name="housecard-4-bolton"]').is(':checked'),
+					$('[name="housecard-5-bolton"]').is(':checked'),
+					$('[name="housecard-6-bolton"]').is(':checked')
 				],
 				"baratheon": [
 					$('[name="housecard-0-baratheon"]').is(':checked'),
@@ -271,11 +288,21 @@ var $board = $('.board'),
 					$('[name="housecard-4-tyrell"]').is(':checked'),
 					$('[name="housecard-5-tyrell"]').is(':checked'),
 					$('[name="housecard-6-tyrell"]').is(':checked')
+				],
+				"viserys": [
+					$('[name="housecard-0-viserys"]').is(':checked'),
+					$('[name="housecard-1-viserys"]').is(':checked'),
+					$('[name="housecard-2-viserys"]').is(':checked'),
+					$('[name="housecard-3-viserys"]').is(':checked'),
+					$('[name="housecard-4-viserys"]').is(':checked'),
+					$('[name="housecard-5-viserys"]').is(':checked'),
+					$('[name="housecard-6-viserys"]').is(':checked')
 				]
 			},
             
             "availablePowertokens": {
                 "arryn": $('[name="availablePowertokens-arryn"]').val(),
+				"bolton": $('[name="availablePowertokens-bolton"]').val(),
                 "baratheon": $('[name="availablePowertokens-baratheon"]').val(),
                 "greyjoy": $('[name="availablePowertokens-greyjoy"]').val(),
                 "lannister": $('[name="availablePowertokens-lannister"]').val(),
@@ -283,7 +310,8 @@ var $board = $('.board'),
                 "stark": $('[name="availablePowertokens-stark"]').val(),
                 "targaryen": $('[name="availablePowertokens-targaryen"]').val(),
                 "tully": $('[name="availablePowertokens-tully"]').val(),
-                "tyrell": $('[name="availablePowertokens-tyrell"]').val()
+                "tyrell": $('[name="availablePowertokens-tyrell"]').val(),
+				"viserys": $('[name="availablePowertokens-viserys"]').val()
             },
             
             "maxPowertokens": $('[name="maxPowertokens"]').val()
@@ -303,6 +331,7 @@ var $board = $('.board'),
         $('[name="raven-used"]').attr('checked', conf.ravenUsed);
 
         $('[name="units-arryn"]').val(conf.units.arryn);
+		$('[name="units-bolton"]').val(conf.units.bolton);
         $('[name="units-baratheon"]').val(conf.units.baratheon);
         $('[name="units-greyjoy"]').val(conf.units.greyjoy);
         $('[name="units-lannister"]').val(conf.units.lannister);
@@ -311,8 +340,10 @@ var $board = $('.board'),
         $('[name="units-targaryen"]').val(conf.units.targaryen);
         $('[name="units-tully"]').val(conf.units.tully);
         $('[name="units-tyrell"]').val(conf.units.tyrell);
+		$('[name="units-viserys"]').val(conf.units.viserys);
 
         $('[name="orders-arryn"]').val(conf.orders.arryn);
+		$('[name="orders-bolton"]').val(conf.orders.bolton);
         $('[name="orders-baratheon"]').val(conf.orders.baratheon);
         $('[name="orders-greyjoy"]').val(conf.orders.greyjoy);
         $('[name="orders-lannister"]').val(conf.orders.lannister);
@@ -321,8 +352,10 @@ var $board = $('.board'),
         $('[name="orders-targaryen"]').val(conf.orders.targaryen);
         $('[name="orders-tully"]').val(conf.orders.tully);
         $('[name="orders-tyrell"]').val(conf.orders.tyrell);
+		$('[name="orders-viserys"]').val(conf.orders.viserys);
 
         $('[name="powertokens-arryn"]').val(conf.powertokens.arryn);
+		$('[name="powertokens-bolton"]').val(conf.powertokens.bolton);
         $('[name="powertokens-baratheon"]').val(conf.powertokens.baratheon);
         $('[name="powertokens-greyjoy"]').val(conf.powertokens.greyjoy);
         $('[name="powertokens-lannister"]').val(conf.powertokens.lannister);
@@ -331,8 +364,10 @@ var $board = $('.board'),
         $('[name="powertokens-targaryen"]').val(conf.powertokens.targaryen);
         $('[name="powertokens-tully"]').val(conf.powertokens.tully);
         $('[name="powertokens-tyrell"]').val(conf.powertokens.tyrell);
+		$('[name="powertokens-viserys"]').val(conf.powertokens.viserys);
 
         $('[name="housecards-arryn"]').val(conf.housecards.arryn);
+		$('[name="housecards-bolton"]').val(conf.housecards.bolton);
         $('[name="housecards-baratheon"]').val(conf.housecards.baratheon);
         $('[name="housecards-greyjoy"]').val(conf.housecards.greyjoy);
         $('[name="housecards-lannister"]').val(conf.housecards.lannister);
@@ -341,6 +376,7 @@ var $board = $('.board'),
         $('[name="housecards-targaryen"]').val(conf.housecards.targaryen);
         $('[name="housecards-tully"]').val(conf.housecards.tully);
         $('[name="housecards-tyrell"]').val(conf.housecards.tyrell);
+		$('[name="housecards-viserys"]').val(conf.housecards.viserys);
 		
 		if (conf.housecardTracking) {
 			$('[name="housecard-0-arryn"]').attr('checked', conf.housecardTracking.arryn[0]);
@@ -350,6 +386,14 @@ var $board = $('.board'),
 			$('[name="housecard-4-arryn"]').attr('checked', conf.housecardTracking.arryn[4]);
 			$('[name="housecard-5-arryn"]').attr('checked', conf.housecardTracking.arryn[5]);
 			$('[name="housecard-6-arryn"]').attr('checked', conf.housecardTracking.arryn[6]);
+			
+			$('[name="housecard-0-bolton"]').attr('checked', conf.housecardTracking.bolton[0]);
+			$('[name="housecard-1-bolton"]').attr('checked', conf.housecardTracking.bolton[1]);
+			$('[name="housecard-2-bolton"]').attr('checked', conf.housecardTracking.bolton[2]);
+			$('[name="housecard-3-bolton"]').attr('checked', conf.housecardTracking.bolton[3]);
+			$('[name="housecard-4-bolton"]').attr('checked', conf.housecardTracking.bolton[4]);
+			$('[name="housecard-5-bolton"]').attr('checked', conf.housecardTracking.bolton[5]);
+			$('[name="housecard-6-bolton"]').attr('checked', conf.housecardTracking.bolton[6]);
 			
 			$('[name="housecard-0-baratheon"]').attr('checked', conf.housecardTracking.baratheon[0]);
 			$('[name="housecard-1-baratheon"]').attr('checked', conf.housecardTracking.baratheon[1]);
@@ -414,9 +458,18 @@ var $board = $('.board'),
 			$('[name="housecard-4-tyrell"]').attr('checked', conf.housecardTracking.tyrell[4]);
 			$('[name="housecard-5-tyrell"]').attr('checked', conf.housecardTracking.tyrell[5]);
 			$('[name="housecard-6-tyrell"]').attr('checked', conf.housecardTracking.tyrell[6]);
+			
+			$('[name="housecard-0-viserys"]').attr('checked', conf.housecardTracking.viserys[0]);
+			$('[name="housecard-1-viserys"]').attr('checked', conf.housecardTracking.viserys[1]);
+			$('[name="housecard-2-viserys"]').attr('checked', conf.housecardTracking.viserys[2]);
+			$('[name="housecard-3-viserys"]').attr('checked', conf.housecardTracking.viserys[3]);
+			$('[name="housecard-4-viserys"]').attr('checked', conf.housecardTracking.viserys[4]);
+			$('[name="housecard-5-viserys"]').attr('checked', conf.housecardTracking.viserys[5]);
+			$('[name="housecard-6-viserys"]').attr('checked', conf.housecardTracking.viserys[6]);
 		}
 
         $('[name="availablePowertokens-arryn"]').val(conf.availablePowertokens.arryn);
+		$('[name="availablePowertokens-bolton"]').val(conf.availablePowertokens.bolton);
         $('[name="availablePowertokens-baratheon"]').val(conf.availablePowertokens.baratheon);
         $('[name="availablePowertokens-greyjoy"]').val(conf.availablePowertokens.greyjoy);
         $('[name="availablePowertokens-lannister"]').val(conf.availablePowertokens.lannister);
@@ -425,6 +478,7 @@ var $board = $('.board'),
         $('[name="availablePowertokens-targaryen"]').val(conf.availablePowertokens.targaryen);
         $('[name="availablePowertokens-tully"]').val(conf.availablePowertokens.tully);
         $('[name="availablePowertokens-tyrell"]').val(conf.availablePowertokens.tyrell);
+		$('[name="availablePowertokens-viserys"]').val(conf.availablePowertokens.viserys);
 
         $('[name="maxPowertokens"]').val(conf.maxPowertokens);
     };

@@ -5,7 +5,7 @@
   <title> - jsFiddle demo</title>
   
   <link rel="stylesheet" type="text/css" href="./11p_files/main.css">
-  <link rel="stylesheet" type="text/css" href="./11p_files/map3.css">
+  <link rel="stylesheet" type="text/css" href="./11p_files/map.css">
   
   <script type="text/javascript" src="./11p_files/jquery-1.8.3.js"></script>
   <script type="text/javascript" src="./11p_files/Base64.js"></script>
@@ -16,7 +16,7 @@
 <body>
   <div class="controls">
     <ul class="interfaceControls"><li><label for="toggleUnits">Show/Hide Units on Board</label></li><li><label for="toggleOrders">Show/Hide Orders on Board</label></li><li><label for="togglePowertokens">Show/Hide Powertokens on Board</label></li><li id="shortlink"></li></ul>
-    <ul class="nav"><li><label for="tracks">Influence Tracks/Supply/…</label></li><li><label for="arrynStuff">Arryn: Settings</label></li><li><label for="baratheonStuff">Baratheon: Settings</label></li><li><label for="greyjoyStuff">Greyjoy: Settings</label></li><li><label for="lannisterStuff">Lannister: Settings</label></li><li><label for="martellStuff">Martell: Settings</label></li><li><label for="starkStuff">Stark: Settings</label></li><li><label for="targaryenStuff">Targaryen: Settings</label></li><li><label for="tullyStuff">Tully: Settings</label></li><li><label for="tyrellStuff">Tyrell: Settings</label></li></ul>
+    <ul class="nav"><li><label for="tracks">Influence Tracks/Supply/…</label></li><li><label for="arrynStuff">Arryn: Settings</label></li><li><label for="baratheonStuff">Baratheon: Settings</label></li><li><label for="boltonStuff">Bolton: Settings</label></li><li><label for="greyjoyStuff">Greyjoy: Settings</label></li><li><label for="lannisterStuff">Lannister: Settings</label></li><li><label for="martellStuff">Martell: Settings</label></li><li><label for="starkStuff">Stark: Settings</label></li><li><label for="targaryenStuff">Daenerys: Settings</label></li><li><label for="tullyStuff">Tully: Settings</label></li><li><label for="tyrellStuff">Tyrell: Settings</label></li><li><label for="viserysStuff">Viserys: Settings</label></li></ul>
     <input type="radio" name="navContentControl" id="tracks">
     <div class="navContent">
         <label class="fullwidth">
@@ -44,10 +44,10 @@
             <textarea name="garrisons"></textarea>
         </label>
         <label class="fullwidth">
-            Wildlings: <input type="number" step="3" min="0" max="18" value="2" name="wildlings">
+            Wildlings: <input type="number" step="3" min="0" max="18" value="3" name="wildlings">
         </label>
         <label class="fullwidth">
-            Round: <input type="number" step="1" min="1" max="10" value="1" name="round">
+            Round: <input type="number" step="1" min="1" max="12" value="1" name="round">
         </label>
         <label class="fullwidth">
             Valyrian Steel Blade was used: <input type="checkbox" name="vsb-used">
@@ -67,6 +67,10 @@
             Baratheons House Cards:
             <textarea name="housecards-baratheon"></textarea>
         </label>
+		<label class="fullwidth">
+            Boltons House Cards:
+            <textarea name="housecards-bolton"></textarea>
+        </label>
         <label class="fullwidth">
             Greyjoys House Cards:
             <textarea name="housecards-greyjoy"></textarea>
@@ -84,7 +88,7 @@
             <textarea name="housecards-stark"></textarea>
         </label>
         <label class="fullwidth">
-            Targaryens House Cards:
+            Daenerys House Cards:
             <textarea name="housecards-targaryen"></textarea>
         </label>
         <label class="fullwidth">
@@ -94,6 +98,10 @@
         <label class="fullwidth">
             Tyrells House Cards:
             <textarea name="housecards-tyrell"></textarea>
+        </label>
+		<label class="fullwidth">
+            Viserys House Cards:
+            <textarea name="housecards-viserys"></textarea>
         </label>
     </div>
     <input type="radio" name="navContentControl" id="arrynStuff">
@@ -161,6 +169,39 @@
 		<label for="housecard-5-baratheon"><img src="./- jsFiddle demo_files/pic1541738.png"></label>
 		<input type="checkbox" name="housecard-6-baratheon" id="housecard-6-baratheon">
 		<label for="housecard-6-baratheon"><img src="./- jsFiddle demo_files/pic1541723.png"></label>
+    </div>
+	<input type="radio" name="navContentControl" id="boltonStuff">
+    <div class="navContent">
+        <label class="fullwidth">
+            Units:
+            <textarea name="units-bolton"></textarea>
+        </label>
+        <label class="fullwidth">
+            Orders:
+            <textarea name="orders-bolton"></textarea>
+        </label>
+        <label class="fullwidth">
+            Powertokens in Areas:
+            <textarea name="powertokens-bolton"></textarea>
+        </label>
+        <label class="fullwidth">
+            Available Power Tokens:
+            <input name="availablePowertokens-bolton" type="number" min="0" max="20" step="1" value="5">
+        </label>
+		<input type="checkbox" name="housecard-0-bolton" id="housecard-0-bolton">
+		<label for="housecard-0-bolton"><img src="./- jsFiddle demo_files/pic1541739.png"></label>
+		<input type="checkbox" name="housecard-1-bolton" id="housecard-1-bolton">
+		<label for="housecard-1-bolton"><img src="./- jsFiddle demo_files/pic1541719.png"></label>
+		<input type="checkbox" name="housecard-2-bolton" id="housecard-2-bolton">
+		<label for="housecard-2-bolton"><img src="./- jsFiddle demo_files/pic1541725.png"></label>
+		<input type="checkbox" name="housecard-3-bolton" id="housecard-3-bolton">
+		<label for="housecard-3-bolton"><img src="./- jsFiddle demo_files/pic1541726.png"></label>
+		<input type="checkbox" name="housecard-4-bolton" id="housecard-4-bolton">
+		<label for="housecard-4-bolton"><img src="./- jsFiddle demo_files/pic1541711.png"></label>
+		<input type="checkbox" name="housecard-5-bolton" id="housecard-5-bolton">
+		<label for="housecard-5-bolton"><img src="./- jsFiddle demo_files/pic1541738.png"></label>
+		<input type="checkbox" name="housecard-6-bolton" id="housecard-6-bolton">
+		<label for="housecard-6-bolton"><img src="./- jsFiddle demo_files/pic1541723.png"></label>
     </div>
     <input type="radio" name="navContentControl" id="greyjoyStuff">
     <div class="navContent">
@@ -392,6 +433,39 @@
 		<label for="housecard-5-tyrell"><img src="./- jsFiddle demo_files/pic1541728.png"></label>
 		<input type="checkbox" name="housecard-6-tyrell" id="housecard-6-tyrell">
 		<label for="housecard-6-tyrell"><img src="./- jsFiddle demo_files/pic1541724.png"></label>
+    </div>
+	<input type="radio" name="navContentControl" id="viserysStuff">
+    <div class="navContent">
+        <label class="fullwidth">
+            Units:
+            <textarea name="units-viserys"></textarea>
+        </label>
+        <label class="fullwidth">
+            Orders:
+            <textarea name="orders-viserys"></textarea>
+        </label>
+        <label class="fullwidth">
+            Powertokens in Areas:
+            <textarea name="powertokens-viserys"></textarea>
+        </label>
+        <label class="fullwidth">
+            Available Power Tokens:
+            <input name="availablePowertokens-viserys" type="number" min="0" max="20" step="1" value="5">
+        </label>
+		<input type="checkbox" name="housecard-0-viserys" id="housecard-0-viserys">
+		<label for="housecard-0-viserys"><img src="./- jsFiddle demo_files/pic1541739.png"></label>
+		<input type="checkbox" name="housecard-1-viserys" id="housecard-1-viserys">
+		<label for="housecard-1-viserys"><img src="./- jsFiddle demo_files/pic1541719.png"></label>
+		<input type="checkbox" name="housecard-2-viserys" id="housecard-2-viserys">
+		<label for="housecard-2-viserys"><img src="./- jsFiddle demo_files/pic1541725.png"></label>
+		<input type="checkbox" name="housecard-3-viserys" id="housecard-3-viserys">
+		<label for="housecard-3-viserys"><img src="./- jsFiddle demo_files/pic1541726.png"></label>
+		<input type="checkbox" name="housecard-4-viserys" id="housecard-4-viserys">
+		<label for="housecard-4-viserys"><img src="./- jsFiddle demo_files/pic1541711.png"></label>
+		<input type="checkbox" name="housecard-5-viserys" id="housecard-5-viserys">
+		<label for="housecard-5-viserys"><img src="./- jsFiddle demo_files/pic1541738.png"></label>
+		<input type="checkbox" name="housecard-6-viserys" id="housecard-6-viserys">
+		<label for="housecard-6-viserys"><img src="./- jsFiddle demo_files/pic1541723.png"></label>
     </div>
 </div>
 <div class="board">
